@@ -1,0 +1,4 @@
+load_pH,Ac_recovery_fraction,source
+1.5,0.95,"Fitzsimmons et al 2019, Molecules 24,1921, section 2.7.2; 1 M citrate load"
+2.0,0.98,"Fitzsimmons et al 2019, Molecules 24,1921, section 2.7.2; 1 M citrate load"
+2.5,0.66,"Fitzsimmons et al 2019, Molecules 24,1921, section 2.7.2; 1 M citrate load"

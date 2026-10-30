@@ -1,0 +1,42 @@
+{
+  "density_check_points": 37,
+  "density_max_absolute_residual_kg_m3": 3.228895015602234,
+  "density_max_relative_error_percent": 0.2299512704055482,
+  "density_RMSE_kg_m3": 1.1443498112561754,
+  "property_formula_max_relative_error": 6.174834107650356e-16,
+  "component_balance_max_residual_kg": 1.2197274440461925e-19,
+  "mixed_feed_volume_mL": 158.03495409439847,
+  "mixed_feed_HNO3_M": 5.062171242965268,
+  "mixing_contraction_percent": 1.228153691000955,
+  "fresh_solution_volume_mL": 164.47631262660153,
+  "fresh_HNO3_mol": 0.1327,
+  "fresh_HCl_mol": 0.09049999999999998,
+  "partial_waste_mass_g": 263.21407390260623,
+  "nominal_conditioner_NH3_solution_mL": 0.4763126266015314,
+  "purification_pumped_volume_mL": 252.50870156236783,
+  "unassigned_protocol_allowance_min": 135.83043281254407,
+  "baseline_process_h": 9.0,
+  "q6_process_h": 8.298586940104535,
+  "q6_same_start_gain_percent": 0.20441836310717906,
+  "q6_break_even_relative_recovery_loss_percent": 0.2040013468931435,
+  "q6_pressure_upper_kPa": 42.57421798276987,
+  "illustrative_50kPa_upper_packing_flow_limit_mL_min": 7.0440620022784755,
+  "queue_width_48_to24_gain_percent": 7.237274030101309,
+  "pH_control_delta02": [
+    {
+      "interpolation": "piecewise_linear",
+      "pH_halfwidth": 0.2,
+      "optimal_setpoint_pH": 1.8342856962319172,
+      "worst_recovery_optimal": 0.958057141773915,
+      "worst_recovery_at_pH2": 0.8519999999999999
+    },
+    {
+      "interpolation": "PCHIP",
+      "pH_halfwidth": 0.2,
+      "optimal_setpoint_pH": 1.869716066384016,
+      "worst_recovery_optimal": 0.9713528381726366,
+      "worst_recovery_at_pH2": 0.9148799999999999
+    }
+  ],
+  "assumptions": "Steady batch-equivalent carrier balances; instantaneous empirical collection at operation end; no measured column-specific efficiencies or DGA carryover acidity; pH data belong to an independent citrate/AG50 experiment."
+}

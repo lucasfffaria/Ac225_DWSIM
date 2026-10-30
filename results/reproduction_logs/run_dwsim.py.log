@@ -1,0 +1,10 @@
+{
+  "dwsim_version": "10.2.4.0",
+  "runtime": "Automation3 and native IronPython CustomUO",
+  "objects": 6,
+  "flowsheet_solver_errors": 0,
+  "saved_reload_verified": true,
+  "max_CPython_relative_error": 1.5920201673539525e-16,
+  "dwxml_sha256": "233732f8dfbf3e33c6774e8aa8edf1354af4b8e9efc83bbe8981ffb948d3e72c",
+  "thermodynamic_property_package": "none; inventory and analytical liquid-accounting model only"
+}

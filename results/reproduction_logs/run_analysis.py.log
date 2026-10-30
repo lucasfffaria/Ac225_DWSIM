@@ -1,0 +1,270 @@
+{
+  "cases": {
+    "proton": {
+      "t_best_purity_d": 19.273475777346807,
+      "pmax": 0.9939083379375633,
+      "individual_lower_d": 14.07008982574045,
+      "individual_upper_d": 28.173354033819045,
+      "individual_feasible": true,
+      "total_99_window_d": [
+        15.067717219948282,
+        28.305263083678778
+      ],
+      "total_995_window_d": null,
+      "r226_day14": 0.010354066024235787,
+      "r227_day14": 0.0037190929222289185,
+      "p_day14": 0.9861221462945676,
+      "critical_r227_individual": 0.003745991079777206,
+      "critical_parent_total_99": [
+        0.0,
+        16.807794903858436
+      ],
+      "critical_parent_individual": [
+        0.0,
+        16.259201337567088
+      ],
+      "MC": {
+        "pmax": {
+          "q025": 0.9930887481870594,
+          "median": 0.9939112906651617,
+          "q975": 0.9947383423572751
+        },
+        "best_age": {
+          "q025": 18.8888439695584,
+          "median": 19.273819215307388,
+          "q975": 19.65974523164069
+        },
+        "lower_age": {
+          "q025": 13.740771922191458,
+          "median": 14.070861126100844,
+          "q975": 14.351189949249791
+        },
+        "upper_age": {
+          "q025": 26.115626405171174,
+          "median": 28.17323315888171,
+          "q975": 30.56027240338992
+        },
+        "p_individual_feasible": 1.0,
+        "p_total99_feasible": 1.0
+      },
+      "release_opt_99_d": 15.067717219948282,
+      "start_opt_99_d": 11.067717219948282,
+      "A225_opt_99_per_A0": 0.22192983965681234,
+      "A225_day14_per_A0": 0.23912027195518765,
+      "relative_gain_vs_day14": -0.0718903176122051,
+      "new_half_life_sensitivity": {
+        "t_best_d": 19.272906389482127,
+        "pmax": 0.9939060354352637
+      },
+      "robust_schedule": {
+        "feasible": true,
+        "input_box_halfwidth_sigma": 2,
+        "delay_bounds_d": [
+          3,
+          5
+        ],
+        "start_window_d": [
+          12.647210606835374,
+          21.185889628165526
+        ],
+        "earliest_start_d": 12.647210606835374,
+        "worst_delivery_d": 17.647210606835372,
+        "eta_lower_scenario": 0.6042,
+        "guaranteed_A225_per_A0": 0.17606077236713558,
+        "nominal_earliest_start_d": 11.067717219948282,
+        "nominal_start_scenario_pass_fraction": 0.50177,
+        "robust_start_scenario_pass_fraction": 0.99992,
+        "relative_activity_cost_vs_nominal": 0.20668273973706164,
+        "robust_delivery_age_window_d": [
+          15.647210606835374,
+          26.185889628165526
+        ],
+        "penalty_factors": {
+          "chemical_recovery_lower_bound": 0.95,
+          "isotope_uncertainty": 0.9603174697430022,
+          "delivery_interval_width": 0.8695778496045238
+        }
+      }
+    },
+    "nitrogen": {
+      "t_best_purity_d": 16.346897155863807,
+      "pmax": 0.9841927618228028,
+      "individual_lower_d": 13.084134791679597,
+      "individual_upper_d": 11.442191607340003,
+      "individual_feasible": false,
+      "total_99_window_d": null,
+      "total_995_window_d": null,
+      "r226_day14": 0.006346658988929714,
+      "r227_day14": 0.011954227250021524,
+      "p_day14": 0.982028016977826,
+      "critical_r227_individual": 0.0040128123583468575,
+      "critical_parent_total_99": [
+        0.5602752026520855,
+        17.594793073263553
+      ],
+      "critical_parent_individual": [
+        0.15323862542768532,
+        12.881762626135869
+      ],
+      "MC": {
+        "pmax": {
+          "q025": 0.9836587343393614,
+          "median": 0.9841934706213185,
+          "q975": 0.9847313338704216
+        },
+        "best_age": {
+          "q025": 16.273594828508443,
+          "median": 16.347154864964867,
+          "q975": 16.422226536852612
+        },
+        "lower_age": {
+          "q025": 13.054202236444237,
+          "median": 13.084108256424209,
+          "q975": 13.113684425408643
+        },
+        "upper_age": {
+          "q025": 10.891757513530548,
+          "median": 11.442940350179448,
+          "q975": 12.017367552919152
+        },
+        "p_individual_feasible": 0.0,
+        "p_total99_feasible": 0.0
+      },
+      "new_half_life_sensitivity": {
+        "t_best_d": 16.34632776799913,
+        "pmax": 0.9841877440095607
+      },
+      "robust_schedule": {
+        "feasible": false
+      }
+    }
+  },
+  "ledger": {
+    "known_fresh_mL": 380.0,
+    "known_internal_transfer_mL": 90.0,
+    "known_pumped_mL": 470.0,
+    "HNO3_mol": 1.2859999999999998,
+    "HCl_mol": 0.0905,
+    "known_nonproduct_collection_mL": 370.0,
+    "boundary_note": "Partial documented liquid additions only; excludes target feed, sulfate, initial water, dead-volume rinses and NH4OH adjustment. Collection volume assumes additive volumes and no unrecorded losses.",
+    "known_pumped_minutes_at_3mL_min": 156.66666666666666,
+    "reported_chromatography_minutes": 540.0,
+    "unallocated_minutes": 383.33333333333337,
+    "fraction_time_unallocated": 0.7098765432098766
+  },
+  "recovery": {
+    "eta_calibration": 0.641,
+    "eta_scenarios": 0.636,
+    "check_rows": [
+      {
+        "id": "1-1b",
+        "feed_kBq": 5.8,
+        "product_kBq": 2.7,
+        "reported_yield_pct": 46.7,
+        "role": "excluded from common-recovery calibration; development run; reported yield averages 1-1b and 1-1c",
+        "predicted_kBq": 3.7178,
+        "relative_residual_pct": 37.69629629629629
+      },
+      {
+        "id": "1-2",
+        "feed_kBq": 94.0,
+        "product_kBq": 53.2,
+        "reported_yield_pct": 56.6,
+        "role": "external transfer check; earlier protocol-development run",
+        "predicted_kBq": 60.254000000000005,
+        "relative_residual_pct": 13.259398496240605
+      },
+      {
+        "id": "2-1",
+        "feed_kBq": 46.3,
+        "product_kBq": 29.6,
+        "reported_yield_pct": 63.9,
+        "role": "calibration",
+        "predicted_kBq": 29.6783,
+        "relative_residual_pct": 0.26452702702702263
+      },
+      {
+        "id": "2-2",
+        "feed_kBq": 224.9,
+        "product_kBq": 144.6,
+        "reported_yield_pct": 64.3,
+        "role": "calibration",
+        "predicted_kBq": 144.1609,
+        "relative_residual_pct": -0.30366528354079964
+      },
+      {
+        "id": "2-3",
+        "feed_kBq": 164.4,
+        "product_kBq": 102.9,
+        "reported_yield_pct": 62.6,
+        "role": "held-out consistency check",
+        "predicted_kBq": 105.38040000000001,
+        "relative_residual_pct": 2.4104956268221605
+      }
+    ],
+    "max_double_counting_effect_9h_relative": 0.026548947681583224
+  },
+  "intensification": {
+    "effects": [
+      {
+        "time_saved_h": 0.0005,
+        "gain_at_equal_recovery_pct": 0.00014557033036545348
+      },
+      {
+        "time_saved_h": 0.016666666666666666,
+        "gain_at_equal_recovery_pct": 0.004852458541692738
+      },
+      {
+        "time_saved_h": 0.5,
+        "gain_at_equal_recovery_pct": 0.14567622929406884
+      },
+      {
+        "time_saved_h": 1,
+        "gain_at_equal_recovery_pct": 0.29156467422595106
+      },
+      {
+        "time_saved_h": 4,
+        "gain_at_equal_recovery_pct": 1.171369216046317
+      },
+      {
+        "time_saved_h": 8,
+        "gain_at_equal_recovery_pct": 2.356459490495644
+      },
+      {
+        "time_saved_h": 9,
+        "gain_at_equal_recovery_pct": 2.6548947681583246
+      },
+      {
+        "time_saved_h": 24,
+        "gain_at_equal_recovery_pct": 7.237274030101309
+      },
+      {
+        "time_saved_h": 48,
+        "gain_at_equal_recovery_pct": 14.998329414070405
+      },
+      {
+        "time_saved_h": 72,
+        "gain_at_equal_recovery_pct": 23.321073643805278
+      },
+      {
+        "time_saved_h": 96,
+        "gain_at_equal_recovery_pct": 32.24615768027051
+      }
+    ],
+    "eta_99_vs_96_break_even_hours": 10.569351936860595,
+    "eta_636_vs_92_break_even_days": 5.283462388947399,
+    "fixed_release_age_gain_at_equal_recovery": 0.0,
+    "eliminate_entire_9h_gain_pct": 2.6548947681583246,
+    "double_flow_max_known_pumping_gain_pct": 0.3808233267006938
+  },
+  "verification": {
+    "closed_vs_matrix_max_relative_error": 8.32751578812936e-13,
+    "closed_vs_ode_max_scaled_error": 3.8148244125269175e-07,
+    "atom_ledger_closure_max_relative_error": 1.1571622559388737e-15,
+    "matrix_semigroup_max_abs_error": 9.953843305154919e-15,
+    "eta_cancellation_max_abs_error": 7.105427357601002e-15,
+    "random_cases": 200,
+    "robust_corner_and_delay_min_purity": 0.99,
+    "robust_time_translation_invariance_verified": true
+  }
+}

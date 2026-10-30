@@ -1,0 +1,1934 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DWSIM_Simulation_Data>
+  <GeneralInfo>
+    <SavedOn>2026-09-09T19:13:52.8395688-03:00</SavedOn>
+    <SavedFromClassicUI>false</SavedFromClassicUI>
+  </GeneralInfo>
+  <SimulationObjects>
+    <SimulationObject>
+      <Type>DWSIM.UnitOperations.UnitOperations.CustomUO</Type>
+      <ObjectClass>UserModels</ObjectClass>
+      <SupportsDynamicMode>true</SupportsDynamicMode>
+      <HasPropertiesForDynamicMode>false</HasPropertiesForDynamicMode>
+      <HighlightSpaces>false</HighlightSpaces>
+      <HighlightTabs>false</HighlightTabs>
+      <InputStringVariables />
+      <InputVariables>
+        <Item Key="half225_d" Value="9.92" />
+        <Item Key="half226_d" Value="1.224" />
+        <Item Key="half227_d" Value="7925.925" />
+        <Item Key="halfRa225_d" Value="14.9" />
+        <Item Key="A225_reference_Bq" Value="1000000" />
+        <Item Key="delivery_age_d" Value="14" />
+        <Item Key="parent_removal_age_d" Value="10" />
+        <Item Key="eta_Ac" Value="0.636" />
+        <Item Key="parent_ratio" Value="0" />
+        <Item Key="R226_limit" Value="0.01" />
+        <Item Key="R227_limit" Value="0.01" />
+        <Item Key="P_Ac_limit" Value="0.99" />
+        <Item Key="delay_min_d" Value="3" />
+        <Item Key="delay_max_d" Value="5" />
+        <Item Key="eta_lower" Value="0.6042" />
+        <Item Key="r226" Value="10.8" />
+        <Item Key="r227" Value="0.0014" />
+      </InputVariables>
+      <OutputVariables>
+        <Item Key="half225_d" Value="9.92" />
+        <Item Key="half226_d" Value="1.224" />
+        <Item Key="half227_d" Value="7925.925" />
+        <Item Key="halfRa225_d" Value="14.9" />
+        <Item Key="A225_reference_Bq" Value="1000000" />
+        <Item Key="delivery_age_d" Value="14" />
+        <Item Key="parent_removal_age_d" Value="10" />
+        <Item Key="eta_Ac" Value="0.636" />
+        <Item Key="parent_ratio" Value="0" />
+        <Item Key="R226_limit" Value="0.01" />
+        <Item Key="R227_limit" Value="0.01" />
+        <Item Key="P_Ac_limit" Value="0.99" />
+        <Item Key="delay_min_d" Value="3" />
+        <Item Key="delay_max_d" Value="5" />
+        <Item Key="eta_lower" Value="0.6042" />
+        <Item Key="r226" Value="10.8" />
+        <Item Key="r227" Value="0.0014" />
+        <Item Key="la" Value="0.0698737077177364" />
+        <Item Key="l6" Value="0.566296716143746" />
+        <Item Key="l7" Value="8.74531591656425E-05" />
+        <Item Key="lr" Value="0.0465199450040232" />
+        <Item Key="a" Value="0.49642300842601" />
+        <Item Key="b" Value="0.0697862545585708" />
+        <Item Key="r6" Value="10.8" />
+        <Item Key="r7" Value="0.0014" />
+        <Item Key="t" Value="14" />
+        <Item Key="s" Value="10" />
+        <Item Key="eta" Value="0.636" />
+        <Item Key="p" Value="0" />
+        <Item Key="gain" Value="1" />
+        <Item Key="A0" Value="1000000" />
+        <Item Key="A225" Value="239120.271955188" />
+        <Item Key="A226" Value="2475.86708355723" />
+        <Item Key="A227" Value="889.310510989992" />
+        <Item Key="tstar" Value="19.2734757773468" />
+        <Item Key="lo" Value="14.0700898257404" />
+        <Item Key="hi" Value="28.173354033819" />
+        <Item Key="limit" Value="0.0101010101010102" />
+        <Item Key="tl" Value="15.0677172199483" />
+        <Item Key="right" Value="38.5469515546936" />
+        <Item Key="A225_delivery_Bq" Value="239120.271955188" />
+        <Item Key="A226_delivery_Bq" Value="2475.86708355723" />
+        <Item Key="A227_delivery_Bq" Value="889.310510989992" />
+        <Item Key="A225_delivery_per_reference" Value="0.239120271955188" />
+        <Item Key="R226_delivery" Value="0.0103540660242358" />
+        <Item Key="R227_delivery" Value="0.00371909292222892" />
+        <Item Key="P_Ac_delivery" Value="0.986122146294568" />
+        <Item Key="parent_Ac_gain_factor" Value="1" />
+        <Item Key="parent_free_best_purity_age_d" Value="19.2734757773468" />
+        <Item Key="parent_free_max_P_Ac" Value="0.993908337937563" />
+        <Item Key="parent_free_individual_lower_age_d" Value="14.0700898257404" />
+        <Item Key="parent_free_individual_upper_age_d" Value="28.173354033819" />
+        <Item Key="parent_free_individual_window_exists" Value="1" />
+        <Item Key="parent_free_P_Ac_window_exists" Value="1" />
+        <Item Key="parent_free_P_Ac_lower_age_d" Value="15.0677172199483" />
+        <Item Key="parent_free_P_Ac_upper_age_d" Value="28.3052630836788" />
+        <Item Key="parent_free_start_window_lower_d" Value="12.0677172199483" />
+        <Item Key="parent_free_start_window_upper_d" Value="23.3052630836788" />
+        <Item Key="parent_free_start_window_exists" Value="1" />
+        <Item Key="parent_free_earliest_start_worst_A225_per_reference" Value="0.183336009095255" />
+        <Item Key="relative_gain_if_9h_saved" Value="0.0265489476815832" />
+        <Item Key="parent_free_critical_r227_for_individual_limits" Value="0.00374599107977721" />
+      </OutputVariables>
+      <EmbeddedImageData></EmbeddedImageData>
+      <UseEmbeddedImage>false</UseEmbeddedImage>
+      <ExecutionEngine>IronPython</ExecutionEngine>
+      <FontName>Consolas</FontName>
+      <FontSize>10</FontSize>
+      <ScriptText># DWSIM CustomUO kernel. IronPython 2.7 compatible and self-contained.
+# No external modules, property packages, compound surrogates, or paid APIs.
+# Activities are in Bq, times in days, and ratios are dimensionless.
+import math
+
+v = Me.InputVariables
+o = Me.OutputVariables
+o.Clear()
+la = math.log(2.0) / v['half225_d']
+l6 = math.log(2.0) / v['half226_d']
+l7 = math.log(2.0) / v['half227_d']
+lr = math.log(2.0) / v['halfRa225_d']
+a, b = l6-la, la-l7
+r6, r7 = v['r226'], v['r227']
+t, s = v['delivery_age_d'], v['parent_removal_age_d']
+eta, p = v['eta_Ac'], v['parent_ratio']
+if t &lt; s or s &lt; 0 or eta &lt;= 0 or eta &gt; 1:
+    raise ValueError('Require 0 &lt;= parent removal &lt;= delivery and 0 &lt; eta &lt;= 1')
+gain = 1.0 + p * la/(la-lr) * (math.exp((la-lr)*s)-1.0)
+A0 = v['A225_reference_Bq']
+A225 = A0 * eta * math.exp(-la*t) * gain
+A226 = A0 * eta * r6 * math.exp(-l6*t)
+A227 = A0 * eta * r7 * math.exp(-l7*t)
+o['A225_delivery_Bq'] = A225
+o['A226_delivery_Bq'] = A226
+o['A227_delivery_Bq'] = A227
+o['A225_delivery_per_reference'] = A225/A0
+o['R226_delivery'] = A226/A225
+o['R227_delivery'] = A227/A225
+o['P_Ac_delivery'] = A225/(A225+A226+A227)
+o['parent_Ac_gain_factor'] = gain
+# All following timing windows refer to the parent-free baseline.
+tstar = max(0.0,math.log(a*r6/(b*r7))/(a+b))
+o['parent_free_best_purity_age_d'] = tstar
+o['parent_free_max_P_Ac'] = 1.0/(1.0+r6*math.exp(-a*tstar)+r7*math.exp(b*tstar))
+lo = max(0.0,math.log(r6/v['R226_limit'])/a)
+hi = math.log(v['R227_limit']/r7)/b
+o['parent_free_individual_lower_age_d'] = lo
+o['parent_free_individual_upper_age_d'] = hi
+o['parent_free_individual_window_exists'] = 1.0 if hi&gt;=lo else 0.0
+limit = 1.0/v['P_Ac_limit']-1.0
+def fn(age):
+    return r6*math.exp(-a*age)+r7*math.exp(b*age)-limit
+def bisect(left,right):
+    fl=fn(left)
+    for k in range(100):
+        mid=(left+right)/2.0
+        fm=fn(mid)
+        if fl*fm&lt;=0: right=mid
+        else: left=mid;fl=fm
+    return (left+right)/2.0
+if fn(tstar) &lt;= 0:
+    tl=0.0 if fn(0)&lt;=0 else bisect(0,tstar)
+    right=max(tstar+1,2*tstar)
+    while fn(right)&lt;0: right*=2
+    o['parent_free_P_Ac_window_exists']=1.0
+    o['parent_free_P_Ac_lower_age_d']=tl
+    o['parent_free_P_Ac_upper_age_d']=bisect(tstar,right)
+    o['parent_free_start_window_lower_d']=max(0.0,tl-v['delay_min_d'])
+    o['parent_free_start_window_upper_d']=o['parent_free_P_Ac_upper_age_d']-v['delay_max_d']
+    o['parent_free_start_window_exists']=1.0 if o['parent_free_start_window_upper_d']&gt;=o['parent_free_start_window_lower_d'] else 0.0
+    o['parent_free_earliest_start_worst_A225_per_reference']=v['eta_lower']*math.exp(-la*(o['parent_free_start_window_lower_d']+v['delay_max_d']))
+else:
+    o['parent_free_P_Ac_window_exists']=0.0
+    # -1 explicitly denotes no solution, not zero days.
+    o['parent_free_P_Ac_lower_age_d']=-1.0
+    o['parent_free_P_Ac_upper_age_d']=-1.0
+    o['parent_free_start_window_exists']=0.0
+    o['parent_free_start_window_lower_d']=-1.0
+    o['parent_free_start_window_upper_d']=-1.0
+o['relative_gain_if_9h_saved']=math.exp(la*9.0/24.0)-1.0
+o['parent_free_critical_r227_for_individual_limits']=v['R227_limit']*math.exp(-b*lo)
+# CustomUO exports numeric scope variables after execution.
+for _name in list(o.Keys):
+    globals()[str(_name)] = o[_name]
+</ScriptText>
+      <MobileCompatible>false</MobileCompatible>
+      <ExternalSolverID></ExternalSolverID>
+      <ExternalSolverConfigData></ExternalSolverConfigData>
+      <ParticleSizeDistributions />
+      <SupportsParticleSizeDistributions>false</SupportsParticleSizeDistributions>
+      <SupportsRestoreStateAfterError>true</SupportsRestoreStateAfterError>
+      <SelectedEquipmentType></SelectedEquipmentType>
+      <EquipmentTypes />
+      <ComponentDescription>CustomUnitOp</ComponentDescription>
+      <ComponentName>UO-7c0dad9c-b545-42aa-b1b6-174f5bcd4e11</ComponentName>
+      <IsDirty>true</IsDirty>
+      <CanUsePreviousResults>false</CanUsePreviousResults>
+      <DynamicsSpec>Pressure</DynamicsSpec>
+      <DynamicsOnly>false</DynamicsOnly>
+      <Visible>true</Visible>
+      <OverrideCalculationRoutine>false</OverrideCalculationRoutine>
+      <StoreDetailedDebugReport>false</StoreDetailedDebugReport>
+      <IsFunctional>true</IsFunctional>
+      <PreferredFlashAlgorithmTag></PreferredFlashAlgorithmTag>
+      <Calculated>false</Calculated>
+      <DebugMode>false</DebugMode>
+      <LastUpdated>01/01/0001 00:00:00</LastUpdated>
+      <ErrorMessage></ErrorMessage>
+      <Annotation></Annotation>
+      <IsAdjustAttached>false</IsAdjustAttached>
+      <AttachedAdjustId></AttachedAdjustId>
+      <AdjustVarType>Manipulated</AdjustVarType>
+      <IsSpecAttached>false</IsSpecAttached>
+      <AttachedSpecId></AttachedSpecId>
+      <SpecVarType>Source</SpecVarType>
+      <Name>UO-7c0dad9c-b545-42aa-b1b6-174f5bcd4e11</Name>
+      <UserDefinedChartNames />
+      <ProductName>Python Script</ProductName>
+      <ProductDescription>Python Script Unit Operation</ProductDescription>
+      <ProductAuthor>Daniel Wagner</ProductAuthor>
+      <ProductContactInfo>https://dwsim.inforside.com.br</ProductContactInfo>
+      <ProductPage>https://dwsim.inforside.com.br</ProductPage>
+      <ProductVersion>10.2.4.0</ProductVersion>
+      <ProductAssembly>DWSIM.SharedClasses</ProductAssembly>
+      <IsSource>false</IsSource>
+      <IsSink>false</IsSink>
+      <Left>80</Left>
+      <Top>80</Top>
+      <Right>105</Right>
+      <Bottom>105</Bottom>
+      <Width>25</Width>
+      <Height>25</Height>
+      <IsInfoCarrierAttached>false</IsInfoCarrierAttached>
+      <AttachedInfoCarrierId></AttachedInfoCarrierId>
+      <InfoCarrierVarType>None</InfoCarrierVarType>
+      <DynamicProperties />
+      <DynamicPropertiesDescriptions />
+      <DynamicPropertiesUnitTypes />
+      <AttachedUtilities />
+      <PropertyPackage></PropertyPackage>
+      <Dimensions />
+      <AttachedExtensions />
+    </SimulationObject>
+    <SimulationObject>
+      <Type>DWSIM.UnitOperations.UnitOperations.CustomUO</Type>
+      <ObjectClass>UserModels</ObjectClass>
+      <SupportsDynamicMode>true</SupportsDynamicMode>
+      <HasPropertiesForDynamicMode>false</HasPropertiesForDynamicMode>
+      <HighlightSpaces>false</HighlightSpaces>
+      <HighlightTabs>false</HighlightTabs>
+      <InputStringVariables />
+      <InputVariables>
+        <Item Key="half225_d" Value="9.92" />
+        <Item Key="half226_d" Value="1.224" />
+        <Item Key="half227_d" Value="7925.925" />
+        <Item Key="halfRa225_d" Value="14.9" />
+        <Item Key="A225_reference_Bq" Value="1000000" />
+        <Item Key="delivery_age_d" Value="14" />
+        <Item Key="parent_removal_age_d" Value="10" />
+        <Item Key="eta_Ac" Value="0.636" />
+        <Item Key="parent_ratio" Value="0.6" />
+        <Item Key="R226_limit" Value="0.01" />
+        <Item Key="R227_limit" Value="0.01" />
+        <Item Key="P_Ac_limit" Value="0.99" />
+        <Item Key="delay_min_d" Value="3" />
+        <Item Key="delay_max_d" Value="5" />
+        <Item Key="eta_lower" Value="0.6042" />
+        <Item Key="r226" Value="10.8" />
+        <Item Key="r227" Value="0.0014" />
+      </InputVariables>
+      <OutputVariables>
+        <Item Key="half225_d" Value="9.92" />
+        <Item Key="half226_d" Value="1.224" />
+        <Item Key="half227_d" Value="7925.925" />
+        <Item Key="halfRa225_d" Value="14.9" />
+        <Item Key="A225_reference_Bq" Value="1000000" />
+        <Item Key="delivery_age_d" Value="14" />
+        <Item Key="parent_removal_age_d" Value="10" />
+        <Item Key="eta_Ac" Value="0.636" />
+        <Item Key="parent_ratio" Value="0.6" />
+        <Item Key="R226_limit" Value="0.01" />
+        <Item Key="R227_limit" Value="0.01" />
+        <Item Key="P_Ac_limit" Value="0.99" />
+        <Item Key="delay_min_d" Value="3" />
+        <Item Key="delay_max_d" Value="5" />
+        <Item Key="eta_lower" Value="0.6042" />
+        <Item Key="r226" Value="10.8" />
+        <Item Key="r227" Value="0.0014" />
+        <Item Key="la" Value="0.0698737077177364" />
+        <Item Key="l6" Value="0.566296716143746" />
+        <Item Key="l7" Value="8.74531591656425E-05" />
+        <Item Key="lr" Value="0.0465199450040232" />
+        <Item Key="a" Value="0.49642300842601" />
+        <Item Key="b" Value="0.0697862545585708" />
+        <Item Key="r6" Value="10.8" />
+        <Item Key="r7" Value="0.0014" />
+        <Item Key="t" Value="14" />
+        <Item Key="s" Value="10" />
+        <Item Key="eta" Value="0.636" />
+        <Item Key="p" Value="0.6" />
+        <Item Key="gain" Value="1.47224087348122" />
+        <Item Key="A0" Value="1000000" />
+        <Item Key="A225" Value="352042.638050372" />
+        <Item Key="A226" Value="2475.86708355723" />
+        <Item Key="A227" Value="889.310510989992" />
+        <Item Key="tstar" Value="19.2734757773468" />
+        <Item Key="lo" Value="14.0700898257404" />
+        <Item Key="hi" Value="28.173354033819" />
+        <Item Key="limit" Value="0.0101010101010102" />
+        <Item Key="tl" Value="15.0677172199483" />
+        <Item Key="right" Value="38.5469515546936" />
+        <Item Key="A225_delivery_Bq" Value="352042.638050372" />
+        <Item Key="A226_delivery_Bq" Value="2475.86708355723" />
+        <Item Key="A227_delivery_Bq" Value="889.310510989992" />
+        <Item Key="A225_delivery_per_reference" Value="0.352042638050372" />
+        <Item Key="R226_delivery" Value="0.00703286140925626" />
+        <Item Key="R227_delivery" Value="0.00252614432136696" />
+        <Item Key="P_Ac_delivery" Value="0.99053150367996" />
+        <Item Key="parent_Ac_gain_factor" Value="1.47224087348122" />
+        <Item Key="parent_free_best_purity_age_d" Value="19.2734757773468" />
+        <Item Key="parent_free_max_P_Ac" Value="0.993908337937563" />
+        <Item Key="parent_free_individual_lower_age_d" Value="14.0700898257404" />
+        <Item Key="parent_free_individual_upper_age_d" Value="28.173354033819" />
+        <Item Key="parent_free_individual_window_exists" Value="1" />
+        <Item Key="parent_free_P_Ac_window_exists" Value="1" />
+        <Item Key="parent_free_P_Ac_lower_age_d" Value="15.0677172199483" />
+        <Item Key="parent_free_P_Ac_upper_age_d" Value="28.3052630836788" />
+        <Item Key="parent_free_start_window_lower_d" Value="12.0677172199483" />
+        <Item Key="parent_free_start_window_upper_d" Value="23.3052630836788" />
+        <Item Key="parent_free_start_window_exists" Value="1" />
+        <Item Key="parent_free_earliest_start_worst_A225_per_reference" Value="0.183336009095255" />
+        <Item Key="relative_gain_if_9h_saved" Value="0.0265489476815832" />
+        <Item Key="parent_free_critical_r227_for_individual_limits" Value="0.00374599107977721" />
+      </OutputVariables>
+      <EmbeddedImageData></EmbeddedImageData>
+      <UseEmbeddedImage>false</UseEmbeddedImage>
+      <ExecutionEngine>IronPython</ExecutionEngine>
+      <FontName>Consolas</FontName>
+      <FontSize>10</FontSize>
+      <ScriptText># DWSIM CustomUO kernel. IronPython 2.7 compatible and self-contained.
+# No external modules, property packages, compound surrogates, or paid APIs.
+# Activities are in Bq, times in days, and ratios are dimensionless.
+import math
+
+v = Me.InputVariables
+o = Me.OutputVariables
+o.Clear()
+la = math.log(2.0) / v['half225_d']
+l6 = math.log(2.0) / v['half226_d']
+l7 = math.log(2.0) / v['half227_d']
+lr = math.log(2.0) / v['halfRa225_d']
+a, b = l6-la, la-l7
+r6, r7 = v['r226'], v['r227']
+t, s = v['delivery_age_d'], v['parent_removal_age_d']
+eta, p = v['eta_Ac'], v['parent_ratio']
+if t &lt; s or s &lt; 0 or eta &lt;= 0 or eta &gt; 1:
+    raise ValueError('Require 0 &lt;= parent removal &lt;= delivery and 0 &lt; eta &lt;= 1')
+gain = 1.0 + p * la/(la-lr) * (math.exp((la-lr)*s)-1.0)
+A0 = v['A225_reference_Bq']
+A225 = A0 * eta * math.exp(-la*t) * gain
+A226 = A0 * eta * r6 * math.exp(-l6*t)
+A227 = A0 * eta * r7 * math.exp(-l7*t)
+o['A225_delivery_Bq'] = A225
+o['A226_delivery_Bq'] = A226
+o['A227_delivery_Bq'] = A227
+o['A225_delivery_per_reference'] = A225/A0
+o['R226_delivery'] = A226/A225
+o['R227_delivery'] = A227/A225
+o['P_Ac_delivery'] = A225/(A225+A226+A227)
+o['parent_Ac_gain_factor'] = gain
+# All following timing windows refer to the parent-free baseline.
+tstar = max(0.0,math.log(a*r6/(b*r7))/(a+b))
+o['parent_free_best_purity_age_d'] = tstar
+o['parent_free_max_P_Ac'] = 1.0/(1.0+r6*math.exp(-a*tstar)+r7*math.exp(b*tstar))
+lo = max(0.0,math.log(r6/v['R226_limit'])/a)
+hi = math.log(v['R227_limit']/r7)/b
+o['parent_free_individual_lower_age_d'] = lo
+o['parent_free_individual_upper_age_d'] = hi
+o['parent_free_individual_window_exists'] = 1.0 if hi&gt;=lo else 0.0
+limit = 1.0/v['P_Ac_limit']-1.0
+def fn(age):
+    return r6*math.exp(-a*age)+r7*math.exp(b*age)-limit
+def bisect(left,right):
+    fl=fn(left)
+    for k in range(100):
+        mid=(left+right)/2.0
+        fm=fn(mid)
+        if fl*fm&lt;=0: right=mid
+        else: left=mid;fl=fm
+    return (left+right)/2.0
+if fn(tstar) &lt;= 0:
+    tl=0.0 if fn(0)&lt;=0 else bisect(0,tstar)
+    right=max(tstar+1,2*tstar)
+    while fn(right)&lt;0: right*=2
+    o['parent_free_P_Ac_window_exists']=1.0
+    o['parent_free_P_Ac_lower_age_d']=tl
+    o['parent_free_P_Ac_upper_age_d']=bisect(tstar,right)
+    o['parent_free_start_window_lower_d']=max(0.0,tl-v['delay_min_d'])
+    o['parent_free_start_window_upper_d']=o['parent_free_P_Ac_upper_age_d']-v['delay_max_d']
+    o['parent_free_start_window_exists']=1.0 if o['parent_free_start_window_upper_d']&gt;=o['parent_free_start_window_lower_d'] else 0.0
+    o['parent_free_earliest_start_worst_A225_per_reference']=v['eta_lower']*math.exp(-la*(o['parent_free_start_window_lower_d']+v['delay_max_d']))
+else:
+    o['parent_free_P_Ac_window_exists']=0.0
+    # -1 explicitly denotes no solution, not zero days.
+    o['parent_free_P_Ac_lower_age_d']=-1.0
+    o['parent_free_P_Ac_upper_age_d']=-1.0
+    o['parent_free_start_window_exists']=0.0
+    o['parent_free_start_window_lower_d']=-1.0
+    o['parent_free_start_window_upper_d']=-1.0
+o['relative_gain_if_9h_saved']=math.exp(la*9.0/24.0)-1.0
+o['parent_free_critical_r227_for_individual_limits']=v['R227_limit']*math.exp(-b*lo)
+# CustomUO exports numeric scope variables after execution.
+for _name in list(o.Keys):
+    globals()[str(_name)] = o[_name]
+</ScriptText>
+      <MobileCompatible>false</MobileCompatible>
+      <ExternalSolverID></ExternalSolverID>
+      <ExternalSolverConfigData></ExternalSolverConfigData>
+      <ParticleSizeDistributions />
+      <SupportsParticleSizeDistributions>false</SupportsParticleSizeDistributions>
+      <SupportsRestoreStateAfterError>true</SupportsRestoreStateAfterError>
+      <SelectedEquipmentType></SelectedEquipmentType>
+      <EquipmentTypes />
+      <ComponentDescription>CustomUnitOp</ComponentDescription>
+      <ComponentName>UO-143e71f1-0d84-42b6-bfbd-1c649b598c61</ComponentName>
+      <IsDirty>true</IsDirty>
+      <CanUsePreviousResults>false</CanUsePreviousResults>
+      <DynamicsSpec>Pressure</DynamicsSpec>
+      <DynamicsOnly>false</DynamicsOnly>
+      <Visible>true</Visible>
+      <OverrideCalculationRoutine>false</OverrideCalculationRoutine>
+      <StoreDetailedDebugReport>false</StoreDetailedDebugReport>
+      <IsFunctional>true</IsFunctional>
+      <PreferredFlashAlgorithmTag></PreferredFlashAlgorithmTag>
+      <Calculated>false</Calculated>
+      <DebugMode>false</DebugMode>
+      <LastUpdated>01/01/0001 00:00:00</LastUpdated>
+      <ErrorMessage></ErrorMessage>
+      <Annotation></Annotation>
+      <IsAdjustAttached>false</IsAdjustAttached>
+      <AttachedAdjustId></AttachedAdjustId>
+      <AdjustVarType>Manipulated</AdjustVarType>
+      <IsSpecAttached>false</IsSpecAttached>
+      <AttachedSpecId></AttachedSpecId>
+      <SpecVarType>Source</SpecVarType>
+      <Name>UO-143e71f1-0d84-42b6-bfbd-1c649b598c61</Name>
+      <UserDefinedChartNames />
+      <ProductName>Python Script</ProductName>
+      <ProductDescription>Python Script Unit Operation</ProductDescription>
+      <ProductAuthor>Daniel Wagner</ProductAuthor>
+      <ProductContactInfo>https://dwsim.inforside.com.br</ProductContactInfo>
+      <ProductPage>https://dwsim.inforside.com.br</ProductPage>
+      <ProductVersion>10.2.4.0</ProductVersion>
+      <ProductAssembly>DWSIM.SharedClasses</ProductAssembly>
+      <IsSource>false</IsSource>
+      <IsSink>false</IsSink>
+      <Left>430</Left>
+      <Top>80</Top>
+      <Right>455</Right>
+      <Bottom>105</Bottom>
+      <Width>25</Width>
+      <Height>25</Height>
+      <IsInfoCarrierAttached>false</IsInfoCarrierAttached>
+      <AttachedInfoCarrierId></AttachedInfoCarrierId>
+      <InfoCarrierVarType>None</InfoCarrierVarType>
+      <DynamicProperties />
+      <DynamicPropertiesDescriptions />
+      <DynamicPropertiesUnitTypes />
+      <AttachedUtilities />
+      <PropertyPackage></PropertyPackage>
+      <Dimensions />
+      <AttachedExtensions />
+    </SimulationObject>
+    <SimulationObject>
+      <Type>DWSIM.UnitOperations.UnitOperations.CustomUO</Type>
+      <ObjectClass>UserModels</ObjectClass>
+      <SupportsDynamicMode>true</SupportsDynamicMode>
+      <HasPropertiesForDynamicMode>false</HasPropertiesForDynamicMode>
+      <HighlightSpaces>false</HighlightSpaces>
+      <HighlightTabs>false</HighlightTabs>
+      <InputStringVariables />
+      <InputVariables>
+        <Item Key="half225_d" Value="9.92" />
+        <Item Key="half226_d" Value="1.224" />
+        <Item Key="half227_d" Value="7925.925" />
+        <Item Key="halfRa225_d" Value="14.9" />
+        <Item Key="A225_reference_Bq" Value="1000000" />
+        <Item Key="delivery_age_d" Value="14" />
+        <Item Key="parent_removal_age_d" Value="10" />
+        <Item Key="eta_Ac" Value="0.636" />
+        <Item Key="parent_ratio" Value="0" />
+        <Item Key="R226_limit" Value="0.01" />
+        <Item Key="R227_limit" Value="0.01" />
+        <Item Key="P_Ac_limit" Value="0.99" />
+        <Item Key="delay_min_d" Value="3" />
+        <Item Key="delay_max_d" Value="5" />
+        <Item Key="eta_lower" Value="0.6042" />
+        <Item Key="r226" Value="6.62" />
+        <Item Key="r227" Value="0.0045" />
+      </InputVariables>
+      <OutputVariables>
+        <Item Key="half225_d" Value="9.92" />
+        <Item Key="half226_d" Value="1.224" />
+        <Item Key="half227_d" Value="7925.925" />
+        <Item Key="halfRa225_d" Value="14.9" />
+        <Item Key="A225_reference_Bq" Value="1000000" />
+        <Item Key="delivery_age_d" Value="14" />
+        <Item Key="parent_removal_age_d" Value="10" />
+        <Item Key="eta_Ac" Value="0.636" />
+        <Item Key="parent_ratio" Value="0" />
+        <Item Key="R226_limit" Value="0.01" />
+        <Item Key="R227_limit" Value="0.01" />
+        <Item Key="P_Ac_limit" Value="0.99" />
+        <Item Key="delay_min_d" Value="3" />
+        <Item Key="delay_max_d" Value="5" />
+        <Item Key="eta_lower" Value="0.6042" />
+        <Item Key="r226" Value="6.62" />
+        <Item Key="r227" Value="0.0045" />
+        <Item Key="la" Value="0.0698737077177364" />
+        <Item Key="l6" Value="0.566296716143746" />
+        <Item Key="l7" Value="8.74531591656425E-05" />
+        <Item Key="lr" Value="0.0465199450040232" />
+        <Item Key="a" Value="0.49642300842601" />
+        <Item Key="b" Value="0.0697862545585708" />
+        <Item Key="r6" Value="6.62" />
+        <Item Key="r7" Value="0.0045" />
+        <Item Key="t" Value="14" />
+        <Item Key="s" Value="10" />
+        <Item Key="eta" Value="0.636" />
+        <Item Key="p" Value="0" />
+        <Item Key="gain" Value="1" />
+        <Item Key="A0" Value="1000000" />
+        <Item Key="A225" Value="239120.271955188" />
+        <Item Key="A226" Value="1517.61482343971" />
+        <Item Key="A227" Value="2858.49807103926" />
+        <Item Key="tstar" Value="16.3468971558638" />
+        <Item Key="lo" Value="13.0841347916796" />
+        <Item Key="hi" Value="11.44219160734" />
+        <Item Key="limit" Value="0.0101010101010102" />
+        <Item Key="A225_delivery_Bq" Value="239120.271955188" />
+        <Item Key="A226_delivery_Bq" Value="1517.61482343971" />
+        <Item Key="A227_delivery_Bq" Value="2858.49807103926" />
+        <Item Key="A225_delivery_per_reference" Value="0.239120271955188" />
+        <Item Key="R226_delivery" Value="0.00634665898892972" />
+        <Item Key="R227_delivery" Value="0.0119542272500215" />
+        <Item Key="P_Ac_delivery" Value="0.982028016977826" />
+        <Item Key="parent_Ac_gain_factor" Value="1" />
+        <Item Key="parent_free_best_purity_age_d" Value="16.3468971558638" />
+        <Item Key="parent_free_max_P_Ac" Value="0.984192761822803" />
+        <Item Key="parent_free_individual_lower_age_d" Value="13.0841347916796" />
+        <Item Key="parent_free_individual_upper_age_d" Value="11.44219160734" />
+        <Item Key="parent_free_individual_window_exists" Value="0" />
+        <Item Key="parent_free_P_Ac_window_exists" Value="0" />
+        <Item Key="parent_free_P_Ac_lower_age_d" Value="-1" />
+        <Item Key="parent_free_P_Ac_upper_age_d" Value="-1" />
+        <Item Key="parent_free_start_window_exists" Value="0" />
+        <Item Key="parent_free_start_window_lower_d" Value="-1" />
+        <Item Key="parent_free_start_window_upper_d" Value="-1" />
+        <Item Key="relative_gain_if_9h_saved" Value="0.0265489476815832" />
+        <Item Key="parent_free_critical_r227_for_individual_limits" Value="0.00401281235834686" />
+      </OutputVariables>
+      <EmbeddedImageData></EmbeddedImageData>
+      <UseEmbeddedImage>false</UseEmbeddedImage>
+      <ExecutionEngine>IronPython</ExecutionEngine>
+      <FontName>Consolas</FontName>
+      <FontSize>10</FontSize>
+      <ScriptText># DWSIM CustomUO kernel. IronPython 2.7 compatible and self-contained.
+# No external modules, property packages, compound surrogates, or paid APIs.
+# Activities are in Bq, times in days, and ratios are dimensionless.
+import math
+
+v = Me.InputVariables
+o = Me.OutputVariables
+o.Clear()
+la = math.log(2.0) / v['half225_d']
+l6 = math.log(2.0) / v['half226_d']
+l7 = math.log(2.0) / v['half227_d']
+lr = math.log(2.0) / v['halfRa225_d']
+a, b = l6-la, la-l7
+r6, r7 = v['r226'], v['r227']
+t, s = v['delivery_age_d'], v['parent_removal_age_d']
+eta, p = v['eta_Ac'], v['parent_ratio']
+if t &lt; s or s &lt; 0 or eta &lt;= 0 or eta &gt; 1:
+    raise ValueError('Require 0 &lt;= parent removal &lt;= delivery and 0 &lt; eta &lt;= 1')
+gain = 1.0 + p * la/(la-lr) * (math.exp((la-lr)*s)-1.0)
+A0 = v['A225_reference_Bq']
+A225 = A0 * eta * math.exp(-la*t) * gain
+A226 = A0 * eta * r6 * math.exp(-l6*t)
+A227 = A0 * eta * r7 * math.exp(-l7*t)
+o['A225_delivery_Bq'] = A225
+o['A226_delivery_Bq'] = A226
+o['A227_delivery_Bq'] = A227
+o['A225_delivery_per_reference'] = A225/A0
+o['R226_delivery'] = A226/A225
+o['R227_delivery'] = A227/A225
+o['P_Ac_delivery'] = A225/(A225+A226+A227)
+o['parent_Ac_gain_factor'] = gain
+# All following timing windows refer to the parent-free baseline.
+tstar = max(0.0,math.log(a*r6/(b*r7))/(a+b))
+o['parent_free_best_purity_age_d'] = tstar
+o['parent_free_max_P_Ac'] = 1.0/(1.0+r6*math.exp(-a*tstar)+r7*math.exp(b*tstar))
+lo = max(0.0,math.log(r6/v['R226_limit'])/a)
+hi = math.log(v['R227_limit']/r7)/b
+o['parent_free_individual_lower_age_d'] = lo
+o['parent_free_individual_upper_age_d'] = hi
+o['parent_free_individual_window_exists'] = 1.0 if hi&gt;=lo else 0.0
+limit = 1.0/v['P_Ac_limit']-1.0
+def fn(age):
+    return r6*math.exp(-a*age)+r7*math.exp(b*age)-limit
+def bisect(left,right):
+    fl=fn(left)
+    for k in range(100):
+        mid=(left+right)/2.0
+        fm=fn(mid)
+        if fl*fm&lt;=0: right=mid
+        else: left=mid;fl=fm
+    return (left+right)/2.0
+if fn(tstar) &lt;= 0:
+    tl=0.0 if fn(0)&lt;=0 else bisect(0,tstar)
+    right=max(tstar+1,2*tstar)
+    while fn(right)&lt;0: right*=2
+    o['parent_free_P_Ac_window_exists']=1.0
+    o['parent_free_P_Ac_lower_age_d']=tl
+    o['parent_free_P_Ac_upper_age_d']=bisect(tstar,right)
+    o['parent_free_start_window_lower_d']=max(0.0,tl-v['delay_min_d'])
+    o['parent_free_start_window_upper_d']=o['parent_free_P_Ac_upper_age_d']-v['delay_max_d']
+    o['parent_free_start_window_exists']=1.0 if o['parent_free_start_window_upper_d']&gt;=o['parent_free_start_window_lower_d'] else 0.0
+    o['parent_free_earliest_start_worst_A225_per_reference']=v['eta_lower']*math.exp(-la*(o['parent_free_start_window_lower_d']+v['delay_max_d']))
+else:
+    o['parent_free_P_Ac_window_exists']=0.0
+    # -1 explicitly denotes no solution, not zero days.
+    o['parent_free_P_Ac_lower_age_d']=-1.0
+    o['parent_free_P_Ac_upper_age_d']=-1.0
+    o['parent_free_start_window_exists']=0.0
+    o['parent_free_start_window_lower_d']=-1.0
+    o['parent_free_start_window_upper_d']=-1.0
+o['relative_gain_if_9h_saved']=math.exp(la*9.0/24.0)-1.0
+o['parent_free_critical_r227_for_individual_limits']=v['R227_limit']*math.exp(-b*lo)
+# CustomUO exports numeric scope variables after execution.
+for _name in list(o.Keys):
+    globals()[str(_name)] = o[_name]
+</ScriptText>
+      <MobileCompatible>false</MobileCompatible>
+      <ExternalSolverID></ExternalSolverID>
+      <ExternalSolverConfigData></ExternalSolverConfigData>
+      <ParticleSizeDistributions />
+      <SupportsParticleSizeDistributions>false</SupportsParticleSizeDistributions>
+      <SupportsRestoreStateAfterError>true</SupportsRestoreStateAfterError>
+      <SelectedEquipmentType></SelectedEquipmentType>
+      <EquipmentTypes />
+      <ComponentDescription>CustomUnitOp</ComponentDescription>
+      <ComponentName>UO-7eaf13c1-338b-47ae-8801-fe7b02b2048e</ComponentName>
+      <IsDirty>true</IsDirty>
+      <CanUsePreviousResults>false</CanUsePreviousResults>
+      <DynamicsSpec>Pressure</DynamicsSpec>
+      <DynamicsOnly>false</DynamicsOnly>
+      <Visible>true</Visible>
+      <OverrideCalculationRoutine>false</OverrideCalculationRoutine>
+      <StoreDetailedDebugReport>false</StoreDetailedDebugReport>
+      <IsFunctional>true</IsFunctional>
+      <PreferredFlashAlgorithmTag></PreferredFlashAlgorithmTag>
+      <Calculated>false</Calculated>
+      <DebugMode>false</DebugMode>
+      <LastUpdated>01/01/0001 00:00:00</LastUpdated>
+      <ErrorMessage></ErrorMessage>
+      <Annotation></Annotation>
+      <IsAdjustAttached>false</IsAdjustAttached>
+      <AttachedAdjustId></AttachedAdjustId>
+      <AdjustVarType>Manipulated</AdjustVarType>
+      <IsSpecAttached>false</IsSpecAttached>
+      <AttachedSpecId></AttachedSpecId>
+      <SpecVarType>Source</SpecVarType>
+      <Name>UO-7eaf13c1-338b-47ae-8801-fe7b02b2048e</Name>
+      <UserDefinedChartNames />
+      <ProductName>Python Script</ProductName>
+      <ProductDescription>Python Script Unit Operation</ProductDescription>
+      <ProductAuthor>Daniel Wagner</ProductAuthor>
+      <ProductContactInfo>https://dwsim.inforside.com.br</ProductContactInfo>
+      <ProductPage>https://dwsim.inforside.com.br</ProductPage>
+      <ProductVersion>10.2.4.0</ProductVersion>
+      <ProductAssembly>DWSIM.SharedClasses</ProductAssembly>
+      <IsSource>false</IsSource>
+      <IsSink>false</IsSink>
+      <Left>80</Left>
+      <Top>260</Top>
+      <Right>105</Right>
+      <Bottom>285</Bottom>
+      <Width>25</Width>
+      <Height>25</Height>
+      <IsInfoCarrierAttached>false</IsInfoCarrierAttached>
+      <AttachedInfoCarrierId></AttachedInfoCarrierId>
+      <InfoCarrierVarType>None</InfoCarrierVarType>
+      <DynamicProperties />
+      <DynamicPropertiesDescriptions />
+      <DynamicPropertiesUnitTypes />
+      <AttachedUtilities />
+      <PropertyPackage></PropertyPackage>
+      <Dimensions />
+      <AttachedExtensions />
+    </SimulationObject>
+    <SimulationObject>
+      <Type>DWSIM.UnitOperations.UnitOperations.CustomUO</Type>
+      <ObjectClass>UserModels</ObjectClass>
+      <SupportsDynamicMode>true</SupportsDynamicMode>
+      <HasPropertiesForDynamicMode>false</HasPropertiesForDynamicMode>
+      <HighlightSpaces>false</HighlightSpaces>
+      <HighlightTabs>false</HighlightTabs>
+      <InputStringVariables />
+      <InputVariables>
+        <Item Key="half225_d" Value="9.92" />
+        <Item Key="half226_d" Value="1.224" />
+        <Item Key="half227_d" Value="7925.925" />
+        <Item Key="halfRa225_d" Value="14.9" />
+        <Item Key="A225_reference_Bq" Value="1000000" />
+        <Item Key="delivery_age_d" Value="14" />
+        <Item Key="parent_removal_age_d" Value="10" />
+        <Item Key="eta_Ac" Value="0.636" />
+        <Item Key="parent_ratio" Value="0.6" />
+        <Item Key="R226_limit" Value="0.01" />
+        <Item Key="R227_limit" Value="0.01" />
+        <Item Key="P_Ac_limit" Value="0.99" />
+        <Item Key="delay_min_d" Value="3" />
+        <Item Key="delay_max_d" Value="5" />
+        <Item Key="eta_lower" Value="0.6042" />
+        <Item Key="r226" Value="6.62" />
+        <Item Key="r227" Value="0.0045" />
+      </InputVariables>
+      <OutputVariables>
+        <Item Key="half225_d" Value="9.92" />
+        <Item Key="half226_d" Value="1.224" />
+        <Item Key="half227_d" Value="7925.925" />
+        <Item Key="halfRa225_d" Value="14.9" />
+        <Item Key="A225_reference_Bq" Value="1000000" />
+        <Item Key="delivery_age_d" Value="14" />
+        <Item Key="parent_removal_age_d" Value="10" />
+        <Item Key="eta_Ac" Value="0.636" />
+        <Item Key="parent_ratio" Value="0.6" />
+        <Item Key="R226_limit" Value="0.01" />
+        <Item Key="R227_limit" Value="0.01" />
+        <Item Key="P_Ac_limit" Value="0.99" />
+        <Item Key="delay_min_d" Value="3" />
+        <Item Key="delay_max_d" Value="5" />
+        <Item Key="eta_lower" Value="0.6042" />
+        <Item Key="r226" Value="6.62" />
+        <Item Key="r227" Value="0.0045" />
+        <Item Key="la" Value="0.0698737077177364" />
+        <Item Key="l6" Value="0.566296716143746" />
+        <Item Key="l7" Value="8.74531591656425E-05" />
+        <Item Key="lr" Value="0.0465199450040232" />
+        <Item Key="a" Value="0.49642300842601" />
+        <Item Key="b" Value="0.0697862545585708" />
+        <Item Key="r6" Value="6.62" />
+        <Item Key="r7" Value="0.0045" />
+        <Item Key="t" Value="14" />
+        <Item Key="s" Value="10" />
+        <Item Key="eta" Value="0.636" />
+        <Item Key="p" Value="0.6" />
+        <Item Key="gain" Value="1.47224087348122" />
+        <Item Key="A0" Value="1000000" />
+        <Item Key="A225" Value="352042.638050372" />
+        <Item Key="A226" Value="1517.61482343971" />
+        <Item Key="A227" Value="2858.49807103926" />
+        <Item Key="tstar" Value="16.3468971558638" />
+        <Item Key="lo" Value="13.0841347916796" />
+        <Item Key="hi" Value="11.44219160734" />
+        <Item Key="limit" Value="0.0101010101010102" />
+        <Item Key="A225_delivery_Bq" Value="352042.638050372" />
+        <Item Key="A226_delivery_Bq" Value="1517.61482343971" />
+        <Item Key="A227_delivery_Bq" Value="2858.49807103926" />
+        <Item Key="A225_delivery_per_reference" Value="0.352042638050372" />
+        <Item Key="R226_delivery" Value="0.0043108835675256" />
+        <Item Key="R227_delivery" Value="0.00811974960439381" />
+        <Item Key="P_Ac_delivery" Value="0.9877219902632" />
+        <Item Key="parent_Ac_gain_factor" Value="1.47224087348122" />
+        <Item Key="parent_free_best_purity_age_d" Value="16.3468971558638" />
+        <Item Key="parent_free_max_P_Ac" Value="0.984192761822803" />
+        <Item Key="parent_free_individual_lower_age_d" Value="13.0841347916796" />
+        <Item Key="parent_free_individual_upper_age_d" Value="11.44219160734" />
+        <Item Key="parent_free_individual_window_exists" Value="0" />
+        <Item Key="parent_free_P_Ac_window_exists" Value="0" />
+        <Item Key="parent_free_P_Ac_lower_age_d" Value="-1" />
+        <Item Key="parent_free_P_Ac_upper_age_d" Value="-1" />
+        <Item Key="parent_free_start_window_exists" Value="0" />
+        <Item Key="parent_free_start_window_lower_d" Value="-1" />
+        <Item Key="parent_free_start_window_upper_d" Value="-1" />
+        <Item Key="relative_gain_if_9h_saved" Value="0.0265489476815832" />
+        <Item Key="parent_free_critical_r227_for_individual_limits" Value="0.00401281235834686" />
+      </OutputVariables>
+      <EmbeddedImageData></EmbeddedImageData>
+      <UseEmbeddedImage>false</UseEmbeddedImage>
+      <ExecutionEngine>IronPython</ExecutionEngine>
+      <FontName>Consolas</FontName>
+      <FontSize>10</FontSize>
+      <ScriptText># DWSIM CustomUO kernel. IronPython 2.7 compatible and self-contained.
+# No external modules, property packages, compound surrogates, or paid APIs.
+# Activities are in Bq, times in days, and ratios are dimensionless.
+import math
+
+v = Me.InputVariables
+o = Me.OutputVariables
+o.Clear()
+la = math.log(2.0) / v['half225_d']
+l6 = math.log(2.0) / v['half226_d']
+l7 = math.log(2.0) / v['half227_d']
+lr = math.log(2.0) / v['halfRa225_d']
+a, b = l6-la, la-l7
+r6, r7 = v['r226'], v['r227']
+t, s = v['delivery_age_d'], v['parent_removal_age_d']
+eta, p = v['eta_Ac'], v['parent_ratio']
+if t &lt; s or s &lt; 0 or eta &lt;= 0 or eta &gt; 1:
+    raise ValueError('Require 0 &lt;= parent removal &lt;= delivery and 0 &lt; eta &lt;= 1')
+gain = 1.0 + p * la/(la-lr) * (math.exp((la-lr)*s)-1.0)
+A0 = v['A225_reference_Bq']
+A225 = A0 * eta * math.exp(-la*t) * gain
+A226 = A0 * eta * r6 * math.exp(-l6*t)
+A227 = A0 * eta * r7 * math.exp(-l7*t)
+o['A225_delivery_Bq'] = A225
+o['A226_delivery_Bq'] = A226
+o['A227_delivery_Bq'] = A227
+o['A225_delivery_per_reference'] = A225/A0
+o['R226_delivery'] = A226/A225
+o['R227_delivery'] = A227/A225
+o['P_Ac_delivery'] = A225/(A225+A226+A227)
+o['parent_Ac_gain_factor'] = gain
+# All following timing windows refer to the parent-free baseline.
+tstar = max(0.0,math.log(a*r6/(b*r7))/(a+b))
+o['parent_free_best_purity_age_d'] = tstar
+o['parent_free_max_P_Ac'] = 1.0/(1.0+r6*math.exp(-a*tstar)+r7*math.exp(b*tstar))
+lo = max(0.0,math.log(r6/v['R226_limit'])/a)
+hi = math.log(v['R227_limit']/r7)/b
+o['parent_free_individual_lower_age_d'] = lo
+o['parent_free_individual_upper_age_d'] = hi
+o['parent_free_individual_window_exists'] = 1.0 if hi&gt;=lo else 0.0
+limit = 1.0/v['P_Ac_limit']-1.0
+def fn(age):
+    return r6*math.exp(-a*age)+r7*math.exp(b*age)-limit
+def bisect(left,right):
+    fl=fn(left)
+    for k in range(100):
+        mid=(left+right)/2.0
+        fm=fn(mid)
+        if fl*fm&lt;=0: right=mid
+        else: left=mid;fl=fm
+    return (left+right)/2.0
+if fn(tstar) &lt;= 0:
+    tl=0.0 if fn(0)&lt;=0 else bisect(0,tstar)
+    right=max(tstar+1,2*tstar)
+    while fn(right)&lt;0: right*=2
+    o['parent_free_P_Ac_window_exists']=1.0
+    o['parent_free_P_Ac_lower_age_d']=tl
+    o['parent_free_P_Ac_upper_age_d']=bisect(tstar,right)
+    o['parent_free_start_window_lower_d']=max(0.0,tl-v['delay_min_d'])
+    o['parent_free_start_window_upper_d']=o['parent_free_P_Ac_upper_age_d']-v['delay_max_d']
+    o['parent_free_start_window_exists']=1.0 if o['parent_free_start_window_upper_d']&gt;=o['parent_free_start_window_lower_d'] else 0.0
+    o['parent_free_earliest_start_worst_A225_per_reference']=v['eta_lower']*math.exp(-la*(o['parent_free_start_window_lower_d']+v['delay_max_d']))
+else:
+    o['parent_free_P_Ac_window_exists']=0.0
+    # -1 explicitly denotes no solution, not zero days.
+    o['parent_free_P_Ac_lower_age_d']=-1.0
+    o['parent_free_P_Ac_upper_age_d']=-1.0
+    o['parent_free_start_window_exists']=0.0
+    o['parent_free_start_window_lower_d']=-1.0
+    o['parent_free_start_window_upper_d']=-1.0
+o['relative_gain_if_9h_saved']=math.exp(la*9.0/24.0)-1.0
+o['parent_free_critical_r227_for_individual_limits']=v['R227_limit']*math.exp(-b*lo)
+# CustomUO exports numeric scope variables after execution.
+for _name in list(o.Keys):
+    globals()[str(_name)] = o[_name]
+</ScriptText>
+      <MobileCompatible>false</MobileCompatible>
+      <ExternalSolverID></ExternalSolverID>
+      <ExternalSolverConfigData></ExternalSolverConfigData>
+      <ParticleSizeDistributions />
+      <SupportsParticleSizeDistributions>false</SupportsParticleSizeDistributions>
+      <SupportsRestoreStateAfterError>true</SupportsRestoreStateAfterError>
+      <SelectedEquipmentType></SelectedEquipmentType>
+      <EquipmentTypes />
+      <ComponentDescription>CustomUnitOp</ComponentDescription>
+      <ComponentName>UO-846e02df-7fc8-4aaf-a052-dde902749760</ComponentName>
+      <IsDirty>true</IsDirty>
+      <CanUsePreviousResults>false</CanUsePreviousResults>
+      <DynamicsSpec>Pressure</DynamicsSpec>
+      <DynamicsOnly>false</DynamicsOnly>
+      <Visible>true</Visible>
+      <OverrideCalculationRoutine>false</OverrideCalculationRoutine>
+      <StoreDetailedDebugReport>false</StoreDetailedDebugReport>
+      <IsFunctional>true</IsFunctional>
+      <PreferredFlashAlgorithmTag></PreferredFlashAlgorithmTag>
+      <Calculated>false</Calculated>
+      <DebugMode>false</DebugMode>
+      <LastUpdated>01/01/0001 00:00:00</LastUpdated>
+      <ErrorMessage></ErrorMessage>
+      <Annotation></Annotation>
+      <IsAdjustAttached>false</IsAdjustAttached>
+      <AttachedAdjustId></AttachedAdjustId>
+      <AdjustVarType>Manipulated</AdjustVarType>
+      <IsSpecAttached>false</IsSpecAttached>
+      <AttachedSpecId></AttachedSpecId>
+      <SpecVarType>Source</SpecVarType>
+      <Name>UO-846e02df-7fc8-4aaf-a052-dde902749760</Name>
+      <UserDefinedChartNames />
+      <ProductName>Python Script</ProductName>
+      <ProductDescription>Python Script Unit Operation</ProductDescription>
+      <ProductAuthor>Daniel Wagner</ProductAuthor>
+      <ProductContactInfo>https://dwsim.inforside.com.br</ProductContactInfo>
+      <ProductPage>https://dwsim.inforside.com.br</ProductPage>
+      <ProductVersion>10.2.4.0</ProductVersion>
+      <ProductAssembly>DWSIM.SharedClasses</ProductAssembly>
+      <IsSource>false</IsSource>
+      <IsSink>false</IsSink>
+      <Left>430</Left>
+      <Top>260</Top>
+      <Right>455</Right>
+      <Bottom>285</Bottom>
+      <Width>25</Width>
+      <Height>25</Height>
+      <IsInfoCarrierAttached>false</IsInfoCarrierAttached>
+      <AttachedInfoCarrierId></AttachedInfoCarrierId>
+      <InfoCarrierVarType>None</InfoCarrierVarType>
+      <DynamicProperties />
+      <DynamicPropertiesDescriptions />
+      <DynamicPropertiesUnitTypes />
+      <AttachedUtilities />
+      <PropertyPackage></PropertyPackage>
+      <Dimensions />
+      <AttachedExtensions />
+    </SimulationObject>
+    <SimulationObject>
+      <Type>DWSIM.UnitOperations.UnitOperations.CustomUO</Type>
+      <ObjectClass>UserModels</ObjectClass>
+      <SupportsDynamicMode>true</SupportsDynamicMode>
+      <HasPropertiesForDynamicMode>false</HasPropertiesForDynamicMode>
+      <HighlightSpaces>false</HighlightSpaces>
+      <HighlightTabs>false</HighlightTabs>
+      <InputStringVariables />
+      <InputVariables>
+        <Item Key="half225_d" Value="9.92" />
+        <Item Key="half226_d" Value="1.224" />
+        <Item Key="half227_d" Value="7925.925" />
+        <Item Key="halfRa225_d" Value="14.9" />
+        <Item Key="A225_reference_Bq" Value="1000000" />
+        <Item Key="delivery_age_d" Value="14" />
+        <Item Key="parent_removal_age_d" Value="10" />
+        <Item Key="eta_Ac" Value="0.636" />
+        <Item Key="parent_ratio" Value="0" />
+        <Item Key="R226_limit" Value="0.01" />
+        <Item Key="R227_limit" Value="0.01" />
+        <Item Key="P_Ac_limit" Value="0.99" />
+        <Item Key="delay_min_d" Value="3" />
+        <Item Key="delay_max_d" Value="5" />
+        <Item Key="eta_lower" Value="0.6042" />
+        <Item Key="r226" Value="12.46" />
+        <Item Key="r227" Value="0.00162" />
+      </InputVariables>
+      <OutputVariables>
+        <Item Key="half225_d" Value="9.92" />
+        <Item Key="half226_d" Value="1.224" />
+        <Item Key="half227_d" Value="7925.925" />
+        <Item Key="halfRa225_d" Value="14.9" />
+        <Item Key="A225_reference_Bq" Value="1000000" />
+        <Item Key="delivery_age_d" Value="14" />
+        <Item Key="parent_removal_age_d" Value="10" />
+        <Item Key="eta_Ac" Value="0.636" />
+        <Item Key="parent_ratio" Value="0" />
+        <Item Key="R226_limit" Value="0.01" />
+        <Item Key="R227_limit" Value="0.01" />
+        <Item Key="P_Ac_limit" Value="0.99" />
+        <Item Key="delay_min_d" Value="3" />
+        <Item Key="delay_max_d" Value="5" />
+        <Item Key="eta_lower" Value="0.6042" />
+        <Item Key="r226" Value="12.46" />
+        <Item Key="r227" Value="0.00162" />
+        <Item Key="la" Value="0.0698737077177364" />
+        <Item Key="l6" Value="0.566296716143746" />
+        <Item Key="l7" Value="8.74531591656425E-05" />
+        <Item Key="lr" Value="0.0465199450040232" />
+        <Item Key="a" Value="0.49642300842601" />
+        <Item Key="b" Value="0.0697862545585708" />
+        <Item Key="r6" Value="12.46" />
+        <Item Key="r7" Value="0.00162" />
+        <Item Key="t" Value="14" />
+        <Item Key="s" Value="10" />
+        <Item Key="eta" Value="0.636" />
+        <Item Key="p" Value="0" />
+        <Item Key="gain" Value="1" />
+        <Item Key="A0" Value="1000000" />
+        <Item Key="A225" Value="239120.271955188" />
+        <Item Key="A226" Value="2856.41702417806" />
+        <Item Key="A227" Value="1029.05930557413" />
+        <Item Key="tstar" Value="19.2682188280375" />
+        <Item Key="lo" Value="14.3581050401892" />
+        <Item Key="hi" Value="26.0819119074819" />
+        <Item Key="limit" Value="0.0101010101010102" />
+        <Item Key="tl" Value="15.6472106068354" />
+        <Item Key="right" Value="38.5364376560751" />
+        <Item Key="A225_delivery_Bq" Value="239120.271955188" />
+        <Item Key="A226_delivery_Bq" Value="2856.41702417806" />
+        <Item Key="A227_delivery_Bq" Value="1029.05930557413" />
+        <Item Key="A225_delivery_per_reference" Value="0.239120271955188" />
+        <Item Key="R226_delivery" Value="0.0119455243205535" />
+        <Item Key="R227_delivery" Value="0.00430352181000775" />
+        <Item Key="P_Ac_delivery" Value="0.984010763707547" />
+        <Item Key="parent_Ac_gain_factor" Value="1" />
+        <Item Key="parent_free_best_purity_age_d" Value="19.2682188280375" />
+        <Item Key="parent_free_max_P_Ac" Value="0.992960382820998" />
+        <Item Key="parent_free_individual_lower_age_d" Value="14.3581050401892" />
+        <Item Key="parent_free_individual_upper_age_d" Value="26.0819119074819" />
+        <Item Key="parent_free_individual_window_exists" Value="1" />
+        <Item Key="parent_free_P_Ac_window_exists" Value="1" />
+        <Item Key="parent_free_P_Ac_lower_age_d" Value="15.6472106068354" />
+        <Item Key="parent_free_P_Ac_upper_age_d" Value="26.1858896281655" />
+        <Item Key="parent_free_start_window_lower_d" Value="12.6472106068354" />
+        <Item Key="parent_free_start_window_upper_d" Value="21.1858896281655" />
+        <Item Key="parent_free_start_window_exists" Value="1" />
+        <Item Key="parent_free_earliest_start_worst_A225_per_reference" Value="0.176060772367136" />
+        <Item Key="relative_gain_if_9h_saved" Value="0.0265489476815832" />
+        <Item Key="parent_free_critical_r227_for_individual_limits" Value="0.00367145014787131" />
+      </OutputVariables>
+      <EmbeddedImageData></EmbeddedImageData>
+      <UseEmbeddedImage>false</UseEmbeddedImage>
+      <ExecutionEngine>IronPython</ExecutionEngine>
+      <FontName>Consolas</FontName>
+      <FontSize>10</FontSize>
+      <ScriptText># DWSIM CustomUO kernel. IronPython 2.7 compatible and self-contained.
+# No external modules, property packages, compound surrogates, or paid APIs.
+# Activities are in Bq, times in days, and ratios are dimensionless.
+import math
+
+v = Me.InputVariables
+o = Me.OutputVariables
+o.Clear()
+la = math.log(2.0) / v['half225_d']
+l6 = math.log(2.0) / v['half226_d']
+l7 = math.log(2.0) / v['half227_d']
+lr = math.log(2.0) / v['halfRa225_d']
+a, b = l6-la, la-l7
+r6, r7 = v['r226'], v['r227']
+t, s = v['delivery_age_d'], v['parent_removal_age_d']
+eta, p = v['eta_Ac'], v['parent_ratio']
+if t &lt; s or s &lt; 0 or eta &lt;= 0 or eta &gt; 1:
+    raise ValueError('Require 0 &lt;= parent removal &lt;= delivery and 0 &lt; eta &lt;= 1')
+gain = 1.0 + p * la/(la-lr) * (math.exp((la-lr)*s)-1.0)
+A0 = v['A225_reference_Bq']
+A225 = A0 * eta * math.exp(-la*t) * gain
+A226 = A0 * eta * r6 * math.exp(-l6*t)
+A227 = A0 * eta * r7 * math.exp(-l7*t)
+o['A225_delivery_Bq'] = A225
+o['A226_delivery_Bq'] = A226
+o['A227_delivery_Bq'] = A227
+o['A225_delivery_per_reference'] = A225/A0
+o['R226_delivery'] = A226/A225
+o['R227_delivery'] = A227/A225
+o['P_Ac_delivery'] = A225/(A225+A226+A227)
+o['parent_Ac_gain_factor'] = gain
+# All following timing windows refer to the parent-free baseline.
+tstar = max(0.0,math.log(a*r6/(b*r7))/(a+b))
+o['parent_free_best_purity_age_d'] = tstar
+o['parent_free_max_P_Ac'] = 1.0/(1.0+r6*math.exp(-a*tstar)+r7*math.exp(b*tstar))
+lo = max(0.0,math.log(r6/v['R226_limit'])/a)
+hi = math.log(v['R227_limit']/r7)/b
+o['parent_free_individual_lower_age_d'] = lo
+o['parent_free_individual_upper_age_d'] = hi
+o['parent_free_individual_window_exists'] = 1.0 if hi&gt;=lo else 0.0
+limit = 1.0/v['P_Ac_limit']-1.0
+def fn(age):
+    return r6*math.exp(-a*age)+r7*math.exp(b*age)-limit
+def bisect(left,right):
+    fl=fn(left)
+    for k in range(100):
+        mid=(left+right)/2.0
+        fm=fn(mid)
+        if fl*fm&lt;=0: right=mid
+        else: left=mid;fl=fm
+    return (left+right)/2.0
+if fn(tstar) &lt;= 0:
+    tl=0.0 if fn(0)&lt;=0 else bisect(0,tstar)
+    right=max(tstar+1,2*tstar)
+    while fn(right)&lt;0: right*=2
+    o['parent_free_P_Ac_window_exists']=1.0
+    o['parent_free_P_Ac_lower_age_d']=tl
+    o['parent_free_P_Ac_upper_age_d']=bisect(tstar,right)
+    o['parent_free_start_window_lower_d']=max(0.0,tl-v['delay_min_d'])
+    o['parent_free_start_window_upper_d']=o['parent_free_P_Ac_upper_age_d']-v['delay_max_d']
+    o['parent_free_start_window_exists']=1.0 if o['parent_free_start_window_upper_d']&gt;=o['parent_free_start_window_lower_d'] else 0.0
+    o['parent_free_earliest_start_worst_A225_per_reference']=v['eta_lower']*math.exp(-la*(o['parent_free_start_window_lower_d']+v['delay_max_d']))
+else:
+    o['parent_free_P_Ac_window_exists']=0.0
+    # -1 explicitly denotes no solution, not zero days.
+    o['parent_free_P_Ac_lower_age_d']=-1.0
+    o['parent_free_P_Ac_upper_age_d']=-1.0
+    o['parent_free_start_window_exists']=0.0
+    o['parent_free_start_window_lower_d']=-1.0
+    o['parent_free_start_window_upper_d']=-1.0
+o['relative_gain_if_9h_saved']=math.exp(la*9.0/24.0)-1.0
+o['parent_free_critical_r227_for_individual_limits']=v['R227_limit']*math.exp(-b*lo)
+# CustomUO exports numeric scope variables after execution.
+for _name in list(o.Keys):
+    globals()[str(_name)] = o[_name]
+</ScriptText>
+      <MobileCompatible>false</MobileCompatible>
+      <ExternalSolverID></ExternalSolverID>
+      <ExternalSolverConfigData></ExternalSolverConfigData>
+      <ParticleSizeDistributions />
+      <SupportsParticleSizeDistributions>false</SupportsParticleSizeDistributions>
+      <SupportsRestoreStateAfterError>true</SupportsRestoreStateAfterError>
+      <SelectedEquipmentType></SelectedEquipmentType>
+      <EquipmentTypes />
+      <ComponentDescription>CustomUnitOp</ComponentDescription>
+      <ComponentName>UO-1a18925a-2190-44d0-b4e8-c7c59e166124</ComponentName>
+      <IsDirty>true</IsDirty>
+      <CanUsePreviousResults>false</CanUsePreviousResults>
+      <DynamicsSpec>Pressure</DynamicsSpec>
+      <DynamicsOnly>false</DynamicsOnly>
+      <Visible>true</Visible>
+      <OverrideCalculationRoutine>false</OverrideCalculationRoutine>
+      <StoreDetailedDebugReport>false</StoreDetailedDebugReport>
+      <IsFunctional>true</IsFunctional>
+      <PreferredFlashAlgorithmTag></PreferredFlashAlgorithmTag>
+      <Calculated>false</Calculated>
+      <DebugMode>false</DebugMode>
+      <LastUpdated>01/01/0001 00:00:00</LastUpdated>
+      <ErrorMessage></ErrorMessage>
+      <Annotation></Annotation>
+      <IsAdjustAttached>false</IsAdjustAttached>
+      <AttachedAdjustId></AttachedAdjustId>
+      <AdjustVarType>Manipulated</AdjustVarType>
+      <IsSpecAttached>false</IsSpecAttached>
+      <AttachedSpecId></AttachedSpecId>
+      <SpecVarType>Source</SpecVarType>
+      <Name>UO-1a18925a-2190-44d0-b4e8-c7c59e166124</Name>
+      <UserDefinedChartNames />
+      <ProductName>Python Script</ProductName>
+      <ProductDescription>Python Script Unit Operation</ProductDescription>
+      <ProductAuthor>Daniel Wagner</ProductAuthor>
+      <ProductContactInfo>https://dwsim.inforside.com.br</ProductContactInfo>
+      <ProductPage>https://dwsim.inforside.com.br</ProductPage>
+      <ProductVersion>10.2.4.0</ProductVersion>
+      <ProductAssembly>DWSIM.SharedClasses</ProductAssembly>
+      <IsSource>false</IsSource>
+      <IsSink>false</IsSink>
+      <Left>780</Left>
+      <Top>80</Top>
+      <Right>805</Right>
+      <Bottom>105</Bottom>
+      <Width>25</Width>
+      <Height>25</Height>
+      <IsInfoCarrierAttached>false</IsInfoCarrierAttached>
+      <AttachedInfoCarrierId></AttachedInfoCarrierId>
+      <InfoCarrierVarType>None</InfoCarrierVarType>
+      <DynamicProperties />
+      <DynamicPropertiesDescriptions />
+      <DynamicPropertiesUnitTypes />
+      <AttachedUtilities />
+      <PropertyPackage></PropertyPackage>
+      <Dimensions />
+      <AttachedExtensions />
+    </SimulationObject>
+    <SimulationObject>
+      <Type>DWSIM.UnitOperations.UnitOperations.CustomUO</Type>
+      <ObjectClass>UserModels</ObjectClass>
+      <SupportsDynamicMode>true</SupportsDynamicMode>
+      <HasPropertiesForDynamicMode>false</HasPropertiesForDynamicMode>
+      <HighlightSpaces>false</HighlightSpaces>
+      <HighlightTabs>false</HighlightTabs>
+      <InputStringVariables />
+      <InputVariables>
+        <Item Key="recipe_rows" Value="12" />
+        <Item Key="internal_transfer_mL" Value="90" />
+        <Item Key="flow_mL_min" Value="3" />
+        <Item Key="reported_process_min" Value="540" />
+        <Item Key="final_collection_mL" Value="10" />
+        <Item Key="row_0_mL" Value="10" />
+        <Item Key="row_0_HNO3_M" Value="5" />
+        <Item Key="row_0_HCl_M" Value="0" />
+        <Item Key="row_1_mL" Value="50" />
+        <Item Key="row_1_HNO3_M" Value="0.05" />
+        <Item Key="row_1_HCl_M" Value="0" />
+        <Item Key="row_2_mL" Value="60" />
+        <Item Key="row_2_HNO3_M" Value="5" />
+        <Item Key="row_2_HCl_M" Value="0" />
+        <Item Key="row_3_mL" Value="80" />
+        <Item Key="row_3_HNO3_M" Value="10" />
+        <Item Key="row_3_HCl_M" Value="0" />
+        <Item Key="row_4_mL" Value="16" />
+        <Item Key="row_4_HNO3_M" Value="0.05" />
+        <Item Key="row_4_HCl_M" Value="0" />
+        <Item Key="row_5_mL" Value="25" />
+        <Item Key="row_5_HNO3_M" Value="5" />
+        <Item Key="row_5_HCl_M" Value="0" />
+        <Item Key="row_6_mL" Value="80" />
+        <Item Key="row_6_HNO3_M" Value="0" />
+        <Item Key="row_6_HCl_M" Value="0" />
+        <Item Key="row_7_mL" Value="15" />
+        <Item Key="row_7_HNO3_M" Value="0" />
+        <Item Key="row_7_HCl_M" Value="6" />
+        <Item Key="row_8_mL" Value="10" />
+        <Item Key="row_8_HNO3_M" Value="0" />
+        <Item Key="row_8_HCl_M" Value="0" />
+        <Item Key="row_9_mL" Value="10" />
+        <Item Key="row_9_HNO3_M" Value="0" />
+        <Item Key="row_9_HCl_M" Value="0.05" />
+        <Item Key="row_10_mL" Value="14" />
+        <Item Key="row_10_HNO3_M" Value="0.05" />
+        <Item Key="row_10_HCl_M" Value="0" />
+        <Item Key="row_11_mL" Value="10" />
+        <Item Key="row_11_HNO3_M" Value="0.7" />
+        <Item Key="row_11_HCl_M" Value="0" />
+      </InputVariables>
+      <OutputVariables>
+        <Item Key="recipe_rows" Value="12" />
+        <Item Key="internal_transfer_mL" Value="90" />
+        <Item Key="flow_mL_min" Value="3" />
+        <Item Key="reported_process_min" Value="540" />
+        <Item Key="final_collection_mL" Value="10" />
+        <Item Key="row_0_mL" Value="10" />
+        <Item Key="row_0_HNO3_M" Value="5" />
+        <Item Key="row_0_HCl_M" Value="0" />
+        <Item Key="row_1_mL" Value="50" />
+        <Item Key="row_1_HNO3_M" Value="0.05" />
+        <Item Key="row_1_HCl_M" Value="0" />
+        <Item Key="row_2_mL" Value="60" />
+        <Item Key="row_2_HNO3_M" Value="5" />
+        <Item Key="row_2_HCl_M" Value="0" />
+        <Item Key="row_3_mL" Value="80" />
+        <Item Key="row_3_HNO3_M" Value="10" />
+        <Item Key="row_3_HCl_M" Value="0" />
+        <Item Key="row_4_mL" Value="16" />
+        <Item Key="row_4_HNO3_M" Value="0.05" />
+        <Item Key="row_4_HCl_M" Value="0" />
+        <Item Key="row_5_mL" Value="25" />
+        <Item Key="row_5_HNO3_M" Value="5" />
+        <Item Key="row_5_HCl_M" Value="0" />
+        <Item Key="row_6_mL" Value="80" />
+        <Item Key="row_6_HNO3_M" Value="0" />
+        <Item Key="row_6_HCl_M" Value="0" />
+        <Item Key="row_7_mL" Value="15" />
+        <Item Key="row_7_HNO3_M" Value="0" />
+        <Item Key="row_7_HCl_M" Value="6" />
+        <Item Key="row_8_mL" Value="10" />
+        <Item Key="row_8_HNO3_M" Value="0" />
+        <Item Key="row_8_HCl_M" Value="0" />
+        <Item Key="row_9_mL" Value="10" />
+        <Item Key="row_9_HNO3_M" Value="0" />
+        <Item Key="row_9_HCl_M" Value="0.05" />
+        <Item Key="row_10_mL" Value="14" />
+        <Item Key="row_10_HNO3_M" Value="0.05" />
+        <Item Key="row_10_HCl_M" Value="0" />
+        <Item Key="row_11_mL" Value="10" />
+        <Item Key="row_11_HNO3_M" Value="0.7" />
+        <Item Key="row_11_HCl_M" Value="0" />
+        <Item Key="total" Value="380" />
+        <Item Key="hno3" Value="1.286" />
+        <Item Key="hcl" Value="0.0905" />
+        <Item Key="i" Value="11" />
+        <Item Key="vol" Value="10" />
+        <Item Key="documented_fresh_volume_mL" Value="380" />
+        <Item Key="documented_internal_transfer_mL" Value="90" />
+        <Item Key="documented_pumped_volume_mL" Value="470" />
+        <Item Key="documented_pumping_time_min" Value="156.666666666667" />
+        <Item Key="unallocated_time_min" Value="383.333333333333" />
+        <Item Key="analytical_HNO3_mol" Value="1.286" />
+        <Item Key="analytical_HCl_mol" Value="0.0905" />
+        <Item Key="unallocated_fraction" Value="0.709876543209877" />
+        <Item Key="partial_nonproduct_collection_mL" Value="370" />
+      </OutputVariables>
+      <EmbeddedImageData></EmbeddedImageData>
+      <UseEmbeddedImage>false</UseEmbeddedImage>
+      <ExecutionEngine>IronPython</ExecutionEngine>
+      <FontName>Consolas</FontName>
+      <FontSize>10</FontSize>
+      <ScriptText># Partial documented liquid ledger. Values are volumes and analytical moles.
+# No acid speciation, density, mixing enthalpy, or full waste prediction.
+v=Me.InputVariables
+o=Me.OutputVariables
+o.Clear()
+total=0.0
+hno3=0.0
+hcl=0.0
+for i in range(int(v['recipe_rows'])):
+    prefix='row_'+str(i)+'_'
+    vol=v[prefix+'mL']
+    total+=vol
+    hno3+=vol*v[prefix+'HNO3_M']/1000.0
+    hcl+=vol*v[prefix+'HCl_M']/1000.0
+o['documented_fresh_volume_mL']=total
+o['documented_internal_transfer_mL']=v['internal_transfer_mL']
+o['documented_pumped_volume_mL']=total+v['internal_transfer_mL']
+o['documented_pumping_time_min']=(total+v['internal_transfer_mL'])/v['flow_mL_min']
+o['unallocated_time_min']=v['reported_process_min']-o['documented_pumping_time_min']
+o['analytical_HNO3_mol']=hno3
+o['analytical_HCl_mol']=hcl
+o['unallocated_fraction']=o['unallocated_time_min']/v['reported_process_min']
+o['partial_nonproduct_collection_mL']=total-v['final_collection_mL']
+for _name in list(o.Keys):
+    globals()[str(_name)] = o[_name]
+</ScriptText>
+      <MobileCompatible>false</MobileCompatible>
+      <ExternalSolverID></ExternalSolverID>
+      <ExternalSolverConfigData></ExternalSolverConfigData>
+      <ParticleSizeDistributions />
+      <SupportsParticleSizeDistributions>false</SupportsParticleSizeDistributions>
+      <SupportsRestoreStateAfterError>true</SupportsRestoreStateAfterError>
+      <SelectedEquipmentType></SelectedEquipmentType>
+      <EquipmentTypes />
+      <ComponentDescription>CustomUnitOp</ComponentDescription>
+      <ComponentName>UO-b9cce8d4-0cbc-418f-a468-4462a249f69b</ComponentName>
+      <IsDirty>true</IsDirty>
+      <CanUsePreviousResults>false</CanUsePreviousResults>
+      <DynamicsSpec>Pressure</DynamicsSpec>
+      <DynamicsOnly>false</DynamicsOnly>
+      <Visible>true</Visible>
+      <OverrideCalculationRoutine>false</OverrideCalculationRoutine>
+      <StoreDetailedDebugReport>false</StoreDetailedDebugReport>
+      <IsFunctional>true</IsFunctional>
+      <PreferredFlashAlgorithmTag></PreferredFlashAlgorithmTag>
+      <Calculated>false</Calculated>
+      <DebugMode>false</DebugMode>
+      <LastUpdated>01/01/0001 00:00:00</LastUpdated>
+      <ErrorMessage></ErrorMessage>
+      <Annotation></Annotation>
+      <IsAdjustAttached>false</IsAdjustAttached>
+      <AttachedAdjustId></AttachedAdjustId>
+      <AdjustVarType>Manipulated</AdjustVarType>
+      <IsSpecAttached>false</IsSpecAttached>
+      <AttachedSpecId></AttachedSpecId>
+      <SpecVarType>Source</SpecVarType>
+      <Name>UO-b9cce8d4-0cbc-418f-a468-4462a249f69b</Name>
+      <UserDefinedChartNames />
+      <ProductName>Python Script</ProductName>
+      <ProductDescription>Python Script Unit Operation</ProductDescription>
+      <ProductAuthor>Daniel Wagner</ProductAuthor>
+      <ProductContactInfo>https://dwsim.inforside.com.br</ProductContactInfo>
+      <ProductPage>https://dwsim.inforside.com.br</ProductPage>
+      <ProductVersion>10.2.4.0</ProductVersion>
+      <ProductAssembly>DWSIM.SharedClasses</ProductAssembly>
+      <IsSource>false</IsSource>
+      <IsSink>false</IsSink>
+      <Left>780</Left>
+      <Top>260</Top>
+      <Right>805</Right>
+      <Bottom>285</Bottom>
+      <Width>25</Width>
+      <Height>25</Height>
+      <IsInfoCarrierAttached>false</IsInfoCarrierAttached>
+      <AttachedInfoCarrierId></AttachedInfoCarrierId>
+      <InfoCarrierVarType>None</InfoCarrierVarType>
+      <DynamicProperties />
+      <DynamicPropertiesDescriptions />
+      <DynamicPropertiesUnitTypes />
+      <AttachedUtilities />
+      <PropertyPackage></PropertyPackage>
+      <Dimensions />
+      <AttachedExtensions />
+    </SimulationObject>
+  </SimulationObjects>
+  <Settings>
+    <Type>DWSIM.SharedClasses.DWSIM.Flowsheet.FlowsheetVariables</Type>
+    <SimulationMode></SimulationMode>
+    <BackupFileName></BackupFileName>
+    <FilePath></FilePath>
+    <FlowsheetQuickConnect>false</FlowsheetQuickConnect>
+    <FlowsheetShowCalculationQueue>false</FlowsheetShowCalculationQueue>
+    <FlowsheetShowConsoleWindow>false</FlowsheetShowConsoleWindow>
+    <FlowsheetShowCOReportsWindow>false</FlowsheetShowCOReportsWindow>
+    <FlowsheetShowWatchWindow>false</FlowsheetShowWatchWindow>
+    <FlowsheetMultiSelectMode>false</FlowsheetMultiSelectMode>
+    <FlowsheetSnapToGrid>false</FlowsheetSnapToGrid>
+    <FlowsheetDisplayGrid>false</FlowsheetDisplayGrid>
+    <FractionNumberFormat>G8</FractionNumberFormat>
+    <Key></Key>
+    <NumberFormat>G6</NumberFormat>
+    <Password></Password>
+    <SimulationAuthor></SimulationAuthor>
+    <SimulationComments></SimulationComments>
+    <SimulationName>Actinium 225 isotope timing and documented reagent inventory</SimulationName>
+    <UsePassword>false</UsePassword>
+    <SelectedUnitSystem1>
+      <Type>DWSIM.SharedClasses.SystemsOfUnits.SI_ENG</Type>
+      <accel>m2/s</accel>
+      <activity>Pa</activity>
+      <activityCoefficient>-</activityCoefficient>
+      <area>m2</area>
+      <cakeresistance>m/kg</cakeresistance>
+      <cinematic_viscosity>cSt</cinematic_viscosity>
+      <compressibility>1/Pa</compressibility>
+      <compressibilityfactor>-</compressibilityfactor>
+      <deltaP>bar</deltaP>
+      <deltaT>C.</deltaT>
+      <density>kg/m3</density>
+      <diameter>mm</diameter>
+      <distance>m</distance>
+      <enthalpy>kJ/kg</enthalpy>
+      <entropy>kJ/[kg.K]</entropy>
+      <excessEnthalpy>kJ/kg</excessEnthalpy>
+      <excessEntropy>kJ/[kg.K]</excessEntropy>
+      <force>N</force>
+      <foulingfactor>K.m2/W</foulingfactor>
+      <fugacity>Pa</fugacity>
+      <fugacityCoefficient>-</fugacityCoefficient>
+      <gor>m3/m3</gor>
+      <head>m</head>
+      <heat_transf_coeff>W/[m2.K]</heat_transf_coeff>
+      <heatCapacityCp>kJ/[kg.K]</heatCapacityCp>
+      <heatCapacityCv>kJ/[kg.K]</heatCapacityCv>
+      <heatflow>kW</heatflow>
+      <heat>kJ</heat>
+      <idealGasHeatCapacity>kJ/[kg.K]</idealGasHeatCapacity>
+      <jouleThomsonCoefficient>K/Pa</jouleThomsonCoefficient>
+      <kvalue>-</kvalue>
+      <logfugacityCoefficient>-</logfugacityCoefficient>
+      <logKvalue>-</logKvalue>
+      <mass>kg</mass>
+      <mass_conc>kg/m3</mass_conc>
+      <massflow>kg/h</massflow>
+      <massfraction>-</massfraction>
+      <mediumresistance>m-1</mediumresistance>
+      <molar_conc>mol/m3</molar_conc>
+      <molar_enthalpy>kJ/kmol</molar_enthalpy>
+      <molar_entropy>kJ/[kmol.K]</molar_entropy>
+      <molar_volume>m3/kmol</molar_volume>
+      <molarflow>kmol/h</molarflow>
+      <molarfraction>-</molarfraction>
+      <molecularWeight>kg/kmol</molecularWeight>
+      <Name>SI (Engineering)</Name>
+      <pdp_boilingPointTemperature>C</pdp_boilingPointTemperature>
+      <pdp_meltingTemperature>C</pdp_meltingTemperature>
+      <pressure>bar</pressure>
+      <reac_rate>mol/[m3.s]</reac_rate>
+      <reac_rate_heterog>mol/[kg.s]</reac_rate_heterog>
+      <spec_vol>m3/kg</spec_vol>
+      <speedOfSound>m/s</speedOfSound>
+      <surfaceTension>N/m</surfaceTension>
+      <temperature>C</temperature>
+      <thermalConductivity>W/[m.K]</thermalConductivity>
+      <thermalConductivityOfLiquid>W/[m.K]</thermalConductivityOfLiquid>
+      <thermalConductivityOfVapor>W/[m.K]</thermalConductivityOfVapor>
+      <thickness>mm</thickness>
+      <time>s</time>
+      <vaporPressure>bar</vaporPressure>
+      <velocity>m/s</velocity>
+      <viscosity>cP</viscosity>
+      <viscosityOfLiquid>cP</viscosityOfLiquid>
+      <viscosityOfVapor>cP</viscosityOfVapor>
+      <volume>m3</volume>
+      <volumetricFlow>m3/h</volumetricFlow>
+      <diffusivity>m2/s</diffusivity>
+      <conductance>[kg/s]/[Pa^0.5]</conductance>
+      <mole>kmol</mole>
+      <emission_factor>[kg/s]/kW</emission_factor>
+      <specific_power>kW/[ton/h]</specific_power>
+    </SelectedUnitSystem1>
+    <SimultaneousAdjustSolverEnabled>true</SimultaneousAdjustSolverEnabled>
+    <SpreadsheetUseRegionalSeparator>false</SpreadsheetUseRegionalSeparator>
+    <EnergyBalanceCheck>ShowWarning</EnergyBalanceCheck>
+    <MassBalanceCheck>ShowWarning</MassBalanceCheck>
+    <EnergyBalanceRelativeTolerance>0.01</EnergyBalanceRelativeTolerance>
+    <MassBalanceRelativeTolerance>0.01</MassBalanceRelativeTolerance>
+    <DisplayCornerPropertyList>false</DisplayCornerPropertyList>
+    <DisplayCornerPropertyListPosition>RightBottom</DisplayCornerPropertyListPosition>
+    <DisplayFloatingPropertyTables>true</DisplayFloatingPropertyTables>
+    <DisplayCornerPropertyListFontColor>DimGray</DisplayCornerPropertyListFontColor>
+    <DisplayCornerPropertyListFontName>Consolas</DisplayCornerPropertyListFontName>
+    <DisplayCornerPropertyListFontSize>8</DisplayCornerPropertyListFontSize>
+    <DisplayCornerPropertyListPadding>4</DisplayCornerPropertyListPadding>
+    <DefaultFloatingTableCompoundAmountBasis>Molar_Fractions</DefaultFloatingTableCompoundAmountBasis>
+    <DisplayFloatingTableCompoundAmounts>true</DisplayFloatingTableCompoundAmounts>
+    <SpreadsheetUnitLockingMode>true</SpreadsheetUnitLockingMode>
+    <CompoundOrderingMode>AsAdded</CompoundOrderingMode>
+    <FlowsheetControlPanelMode>false</FlowsheetControlPanelMode>
+    <SkipEquilibriumCalculationOnDefinedStreams>true</SkipEquilibriumCalculationOnDefinedStreams>
+    <ForceStreamPhase>None</ForceStreamPhase>
+    <DisplayUserDefinedPropertiesEditor>false</DisplayUserDefinedPropertiesEditor>
+    <LabelFontSize>10</LabelFontSize>
+    <FlowsheetColorTheme>0</FlowsheetColorTheme>
+    <RegularFontName>OpenSans_SemiCondensed-Regular</RegularFontName>
+    <BoldFontName>OpenSans_SemiCondensed-SemiBold</BoldFontName>
+    <ItalicFontName>OpenSans_SemiCondensed-Italic</ItalicFontName>
+    <BoldItalicFontName>OpenSans_SemiCondensed-MediumItalic</BoldItalicFontName>
+    <DisplayEnergyStreamPowerValue>true</DisplayEnergyStreamPowerValue>
+    <DisplayMaterialStreamMassFlowValue>false</DisplayMaterialStreamMassFlowValue>
+    <DisplayMaterialStreamMolarFlowValue>false</DisplayMaterialStreamMolarFlowValue>
+    <DisplayMaterialStreamVolFlowValue>false</DisplayMaterialStreamVolFlowValue>
+    <DisplayMaterialStreamTemperatureValue>false</DisplayMaterialStreamTemperatureValue>
+    <DisplayMaterialStreamPressureValue>false</DisplayMaterialStreamPressureValue>
+    <DisplayMaterialStreamEnergyFlowValue>false</DisplayMaterialStreamEnergyFlowValue>
+    <AddObjectsWithStreams>2</AddObjectsWithStreams>
+    <DisplayDynamicPropertyValues>true</DisplayDynamicPropertyValues>
+    <CurrentWeather>
+      <Type>DWSIM.SharedClasses.WeatherData</Type>
+      <CurrentCondition>Sunny</CurrentCondition>
+      <WindSpeed_km_h>5</WindSpeed_km_h>
+      <RelativeHumidity_pct>30</RelativeHumidity_pct>
+      <Temperature_C>30</Temperature_C>
+      <SolarIrradiation_kWh_m2>1</SolarIrradiation_kWh_m2>
+      <Latitude>0</Latitude>
+      <Longitude>0</Longitude>
+      <AtmosphericPressure_Pa>101325</AtmosphericPressure_Pa>
+    </CurrentWeather>
+    <CustomCalculationOrder />
+    <SpecCalculationMode>AfterSourceObject</SpecCalculationMode>
+    <ForceObjectSolving>true</ForceObjectSolving>
+    <SaveFlowsheetMessagesInFile>true</SaveFlowsheetMessagesInFile>
+    <RTFAnnotations></RTFAnnotations>
+    <EnabledUndoRedo>false</EnabledUndoRedo>
+    <EnableGHGEmissionsSubsystem>false</EnableGHGEmissionsSubsystem>
+    <FlowsheetTransitionObject>
+      <Type>DWSIM.SharedClasses.DWSIM.Flowsheet.FlowsheetTransitionRestore</Type>
+      <FeatureName></FeatureName>
+      <FeatureType></FeatureType>
+      <Action></Action>
+      <Location></Location>
+      <Position />
+    </FlowsheetTransitionObject>
+    <UniqueID>15900380-72bb-470d-aae8-700b868e4e40</UniqueID>
+    <RestoreUnitOperationStateAfterError>false</RestoreUnitOperationStateAfterError>
+    <DynamicModeEnabled>false</DynamicModeEnabled>
+    <InformationCarrierCalculationMode>AfterSourceObject</InformationCarrierCalculationMode>
+    <Metadata>
+      <Type>DWSIM.SharedClasses.FlowsheetMetadata</Type>
+      <ProcessType>Unspecified</ProcessType>
+      <ProcessDescription></ProcessDescription>
+      <KeyCompounds />
+      <KeyReactants />
+      <KeyProducts />
+      <Score>0</Score>
+      <TotalEnergyConsumption>0</TotalEnergyConsumption>
+      <TotalEnergyGeneration>0</TotalEnergyGeneration>
+      <FlowsheetTopology></FlowsheetTopology>
+    </Metadata>
+    <CurrentFlowsheetObjectZoomLevel>1</CurrentFlowsheetObjectZoomLevel>
+    <VisibleProperties />
+  </Settings>
+  <DynamicProperties />
+  <GraphicObjects>
+    <GraphicObject>
+      <Type>DWSIM.Drawing.SkiaSharp.GraphicObjects.Shapes.ScriptGraphic</Type>
+      <SemiTransparent>false</SemiTransparent>
+      <LineWidth>2</LineWidth>
+      <GradientMode>true</GradientMode>
+      <LineColor>#ff000000</LineColor>
+      <LineColorDark>#fff5f5f5</LineColorDark>
+      <Fill>true</Fill>
+      <FillColor>#ffd3d3d3</FillColor>
+      <FillColorDark>#ffffffff</FillColorDark>
+      <GradientColor1>#ffd3d3d3</GradientColor1>
+      <GradientColor2>#ffffffff</GradientColor2>
+      <FontSize>10</FontSize>
+      <OverrideColors>false</OverrideColors>
+      <FontStyle>Bold</FontStyle>
+      <Calculated>false</Calculated>
+      <Active>true</Active>
+      <Description>Python Script Block</Description>
+      <FlippedH>false</FlippedH>
+      <FlippedV>false</FlippedV>
+      <IsEnergyStream>false</IsEnergyStream>
+      <ObjectType>CustomUO</ObjectType>
+      <Shape>0</Shape>
+      <ShapeOverride>DefaultShape</ShapeOverride>
+      <Status>NotCalculated</Status>
+      <AutoSize>false</AutoSize>
+      <Height>25</Height>
+      <IsConnector>false</IsConnector>
+      <Name>UO-7c0dad9c-b545-42aa-b1b6-174f5bcd4e11</Name>
+      <Tag>Proton case - parent free</Tag>
+      <Width>25</Width>
+      <X>80</X>
+      <Y>80</Y>
+      <Selected>false</Selected>
+      <ClipboardData></ClipboardData>
+      <Rotation>0</Rotation>
+      <DrawMode>0</DrawMode>
+      <DrawLabel>true</DrawLabel>
+      <InputConnectors>
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+      </InputConnectors>
+      <OutputConnectors>
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+      </OutputConnectors>
+      <EnergyConnector>
+        <Connector IsAttached="false" />
+      </EnergyConnector>
+      <SpecialConnectors />
+    </GraphicObject>
+    <GraphicObject>
+      <Type>DWSIM.Drawing.SkiaSharp.GraphicObjects.Shapes.ScriptGraphic</Type>
+      <SemiTransparent>false</SemiTransparent>
+      <LineWidth>2</LineWidth>
+      <GradientMode>true</GradientMode>
+      <LineColor>#ff000000</LineColor>
+      <LineColorDark>#fff5f5f5</LineColorDark>
+      <Fill>true</Fill>
+      <FillColor>#ffd3d3d3</FillColor>
+      <FillColorDark>#ffffffff</FillColorDark>
+      <GradientColor1>#ffd3d3d3</GradientColor1>
+      <GradientColor2>#ffffffff</GradientColor2>
+      <FontSize>10</FontSize>
+      <OverrideColors>false</OverrideColors>
+      <FontStyle>Bold</FontStyle>
+      <Calculated>false</Calculated>
+      <Active>true</Active>
+      <Description>Python Script Block</Description>
+      <FlippedH>false</FlippedH>
+      <FlippedV>false</FlippedV>
+      <IsEnergyStream>false</IsEnergyStream>
+      <ObjectType>CustomUO</ObjectType>
+      <Shape>0</Shape>
+      <ShapeOverride>DefaultShape</ShapeOverride>
+      <Status>NotCalculated</Status>
+      <AutoSize>false</AutoSize>
+      <Height>25</Height>
+      <IsConnector>false</IsConnector>
+      <Name>UO-143e71f1-0d84-42b6-bfbd-1c649b598c61</Name>
+      <Tag>Proton case - Ra225 scenario</Tag>
+      <Width>25</Width>
+      <X>430</X>
+      <Y>80</Y>
+      <Selected>false</Selected>
+      <ClipboardData></ClipboardData>
+      <Rotation>0</Rotation>
+      <DrawMode>0</DrawMode>
+      <DrawLabel>true</DrawLabel>
+      <InputConnectors>
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+      </InputConnectors>
+      <OutputConnectors>
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+      </OutputConnectors>
+      <EnergyConnector>
+        <Connector IsAttached="false" />
+      </EnergyConnector>
+      <SpecialConnectors />
+    </GraphicObject>
+    <GraphicObject>
+      <Type>DWSIM.Drawing.SkiaSharp.GraphicObjects.Shapes.ScriptGraphic</Type>
+      <SemiTransparent>false</SemiTransparent>
+      <LineWidth>2</LineWidth>
+      <GradientMode>true</GradientMode>
+      <LineColor>#ff000000</LineColor>
+      <LineColorDark>#fff5f5f5</LineColorDark>
+      <Fill>true</Fill>
+      <FillColor>#ffd3d3d3</FillColor>
+      <FillColorDark>#ffffffff</FillColorDark>
+      <GradientColor1>#ffd3d3d3</GradientColor1>
+      <GradientColor2>#ffffffff</GradientColor2>
+      <FontSize>10</FontSize>
+      <OverrideColors>false</OverrideColors>
+      <FontStyle>Bold</FontStyle>
+      <Calculated>false</Calculated>
+      <Active>true</Active>
+      <Description>Python Script Block</Description>
+      <FlippedH>false</FlippedH>
+      <FlippedV>false</FlippedV>
+      <IsEnergyStream>false</IsEnergyStream>
+      <ObjectType>CustomUO</ObjectType>
+      <Shape>0</Shape>
+      <ShapeOverride>DefaultShape</ShapeOverride>
+      <Status>NotCalculated</Status>
+      <AutoSize>false</AutoSize>
+      <Height>25</Height>
+      <IsConnector>false</IsConnector>
+      <Name>UO-7eaf13c1-338b-47ae-8801-fe7b02b2048e</Name>
+      <Tag>Nitrogen case - parent free</Tag>
+      <Width>25</Width>
+      <X>80</X>
+      <Y>260</Y>
+      <Selected>false</Selected>
+      <ClipboardData></ClipboardData>
+      <Rotation>0</Rotation>
+      <DrawMode>0</DrawMode>
+      <DrawLabel>true</DrawLabel>
+      <InputConnectors>
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+      </InputConnectors>
+      <OutputConnectors>
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+      </OutputConnectors>
+      <EnergyConnector>
+        <Connector IsAttached="false" />
+      </EnergyConnector>
+      <SpecialConnectors />
+    </GraphicObject>
+    <GraphicObject>
+      <Type>DWSIM.Drawing.SkiaSharp.GraphicObjects.Shapes.ScriptGraphic</Type>
+      <SemiTransparent>false</SemiTransparent>
+      <LineWidth>2</LineWidth>
+      <GradientMode>true</GradientMode>
+      <LineColor>#ff000000</LineColor>
+      <LineColorDark>#fff5f5f5</LineColorDark>
+      <Fill>true</Fill>
+      <FillColor>#ffd3d3d3</FillColor>
+      <FillColorDark>#ffffffff</FillColorDark>
+      <GradientColor1>#ffd3d3d3</GradientColor1>
+      <GradientColor2>#ffffffff</GradientColor2>
+      <FontSize>10</FontSize>
+      <OverrideColors>false</OverrideColors>
+      <FontStyle>Bold</FontStyle>
+      <Calculated>false</Calculated>
+      <Active>true</Active>
+      <Description>Python Script Block</Description>
+      <FlippedH>false</FlippedH>
+      <FlippedV>false</FlippedV>
+      <IsEnergyStream>false</IsEnergyStream>
+      <ObjectType>CustomUO</ObjectType>
+      <Shape>0</Shape>
+      <ShapeOverride>DefaultShape</ShapeOverride>
+      <Status>NotCalculated</Status>
+      <AutoSize>false</AutoSize>
+      <Height>25</Height>
+      <IsConnector>false</IsConnector>
+      <Name>UO-846e02df-7fc8-4aaf-a052-dde902749760</Name>
+      <Tag>Nitrogen case - Ra225 scenario</Tag>
+      <Width>25</Width>
+      <X>430</X>
+      <Y>260</Y>
+      <Selected>false</Selected>
+      <ClipboardData></ClipboardData>
+      <Rotation>0</Rotation>
+      <DrawMode>0</DrawMode>
+      <DrawLabel>true</DrawLabel>
+      <InputConnectors>
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+      </InputConnectors>
+      <OutputConnectors>
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+      </OutputConnectors>
+      <EnergyConnector>
+        <Connector IsAttached="false" />
+      </EnergyConnector>
+      <SpecialConnectors />
+    </GraphicObject>
+    <GraphicObject>
+      <Type>DWSIM.Drawing.SkiaSharp.GraphicObjects.Shapes.ScriptGraphic</Type>
+      <SemiTransparent>false</SemiTransparent>
+      <LineWidth>2</LineWidth>
+      <GradientMode>true</GradientMode>
+      <LineColor>#ff000000</LineColor>
+      <LineColorDark>#fff5f5f5</LineColorDark>
+      <Fill>true</Fill>
+      <FillColor>#ffd3d3d3</FillColor>
+      <FillColorDark>#ffffffff</FillColorDark>
+      <GradientColor1>#ffd3d3d3</GradientColor1>
+      <GradientColor2>#ffffffff</GradientColor2>
+      <FontSize>10</FontSize>
+      <OverrideColors>false</OverrideColors>
+      <FontStyle>Bold</FontStyle>
+      <Calculated>false</Calculated>
+      <Active>true</Active>
+      <Description>Python Script Block</Description>
+      <FlippedH>false</FlippedH>
+      <FlippedV>false</FlippedV>
+      <IsEnergyStream>false</IsEnergyStream>
+      <ObjectType>CustomUO</ObjectType>
+      <Shape>0</Shape>
+      <ShapeOverride>DefaultShape</ShapeOverride>
+      <Status>NotCalculated</Status>
+      <AutoSize>false</AutoSize>
+      <Height>25</Height>
+      <IsConnector>false</IsConnector>
+      <Name>UO-1a18925a-2190-44d0-b4e8-c7c59e166124</Name>
+      <Tag>Proton robust upper input corner</Tag>
+      <Width>25</Width>
+      <X>780</X>
+      <Y>80</Y>
+      <Selected>false</Selected>
+      <ClipboardData></ClipboardData>
+      <Rotation>0</Rotation>
+      <DrawMode>0</DrawMode>
+      <DrawLabel>true</DrawLabel>
+      <InputConnectors>
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+      </InputConnectors>
+      <OutputConnectors>
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+      </OutputConnectors>
+      <EnergyConnector>
+        <Connector IsAttached="false" />
+      </EnergyConnector>
+      <SpecialConnectors />
+    </GraphicObject>
+    <GraphicObject>
+      <Type>DWSIM.Drawing.SkiaSharp.GraphicObjects.Shapes.ScriptGraphic</Type>
+      <SemiTransparent>false</SemiTransparent>
+      <LineWidth>2</LineWidth>
+      <GradientMode>true</GradientMode>
+      <LineColor>#ff000000</LineColor>
+      <LineColorDark>#fff5f5f5</LineColorDark>
+      <Fill>true</Fill>
+      <FillColor>#ffd3d3d3</FillColor>
+      <FillColorDark>#ffffffff</FillColorDark>
+      <GradientColor1>#ffd3d3d3</GradientColor1>
+      <GradientColor2>#ffffffff</GradientColor2>
+      <FontSize>10</FontSize>
+      <OverrideColors>false</OverrideColors>
+      <FontStyle>Bold</FontStyle>
+      <Calculated>false</Calculated>
+      <Active>true</Active>
+      <Description>Python Script Block</Description>
+      <FlippedH>false</FlippedH>
+      <FlippedV>false</FlippedV>
+      <IsEnergyStream>false</IsEnergyStream>
+      <ObjectType>CustomUO</ObjectType>
+      <Shape>0</Shape>
+      <ShapeOverride>DefaultShape</ShapeOverride>
+      <Status>NotCalculated</Status>
+      <AutoSize>false</AutoSize>
+      <Height>25</Height>
+      <IsConnector>false</IsConnector>
+      <Name>UO-b9cce8d4-0cbc-418f-a468-4462a249f69b</Name>
+      <Tag>Documented liquid and time ledger</Tag>
+      <Width>25</Width>
+      <X>780</X>
+      <Y>260</Y>
+      <Selected>false</Selected>
+      <ClipboardData></ClipboardData>
+      <Rotation>0</Rotation>
+      <DrawMode>0</DrawMode>
+      <DrawLabel>true</DrawLabel>
+      <InputConnectors>
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+      </InputConnectors>
+      <OutputConnectors>
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+        <Connector IsAttached="false" />
+      </OutputConnectors>
+      <EnergyConnector>
+        <Connector IsAttached="false" />
+      </EnergyConnector>
+      <SpecialConnectors />
+    </GraphicObject>
+  </GraphicObjects>
+  <PropertyPackages />
+  <Compounds />
+  <ReactionSets>
+    <ReactionSet>
+      <ID>DefaultSet</ID>
+      <Name>Default Set</Name>
+      <Description></Description>
+      <Reactions />
+    </ReactionSet>
+  </ReactionSets>
+  <Reactions />
+  <StoredSolutions />
+  <DynamicsManager>
+    <Type>DWSIM.DynamicsManager.Manager</Type>
+    <Description></Description>
+    <CurrentSchedule></CurrentSchedule>
+    <EnableHistorian>true</EnableHistorian>
+    <MaxHistorianItems>1000</MaxHistorianItems>
+    <ScheduleList />
+    <EventSetList />
+    <IntegratorList />
+  </DynamicsManager>
+  <OptimizationCases />
+  <SensitivityAnalysis />
+  <ScriptItems />
+  <ChartItems />
+  <ParticleSizeDistributions />
+  <Results>
+    <Type>DWSIM.SharedClasses.DWSIM.Flowsheet.FlowsheetResults</Type>
+    <TotalCAPEX>0</TotalCAPEX>
+    <TotalOPEX>0</TotalOPEX>
+    <ResidualMassBalance>0</ResidualMassBalance>
+    <TotalEnergyBalance>0</TotalEnergyBalance>
+    <AdditionalResults />
+  </Results>
+  <Spreadsheet>
+    <RGFData>{"Sheet1":"{\"?xml\":{\"@version\":\"1.0\"},\"grid\":{\"@xmlns:xsd\":\"http://www.w3.org/2001/XMLSchema\",\"@xmlns:xsi\":\"http://www.w3.org/2001/XMLSchema-instance\",\"head\":{\"meta\":{\"culture\":\"pt-BR\",\"editor\":\"ReoGrid Core\",\"core-ver\":\"2.1.0.0\"},\"rows\":\"200\",\"cols\":\"100\",\"default-row-height\":\"20\",\"default-col-width\":\"70\",\"settings\":{\"@meta\":\"30475026398\"},\"script\":null},\"style\":{\"@font\":\"Arial\",\"@font-size\":\"10\",\"@align\":\"general\",\"@valign\":\"middle\"},\"rows\":null,\"cols\":null,\"v-borders\":null,\"h-borders\":null,\"cells\":null}}"}</RGFData>
+  </Spreadsheet>
+</DWSIM_Simulation_Data>

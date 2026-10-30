@@ -1,0 +1,23 @@
+Baseline solved and reloaded: 7 custom operations, 16 material streams, 21 connections
+Native flow/queue sweep complete at 1.5 mL/min
+Native flow/queue sweep complete at 3.0 mL/min
+Native flow/queue sweep complete at 4.5 mL/min
+Native flow/queue sweep complete at 6.0 mL/min
+Native flow/queue sweep complete at 9.0 mL/min
+{
+  "dwsim_version": "10.2.4.0",
+  "custom_operations": 7,
+  "material_streams": 16,
+  "connections": 21,
+  "native_flowsheet_errors": 0,
+  "saved_reload_verified": true,
+  "max_reload_relative_error": 8.757055201197297e-15,
+  "max_isotope_matrix_oracle_relative_error": 2.6091355579592544e-16,
+  "global_mass_residual_kg": 5.551115123125783e-17,
+  "batch_basis_s": 3600,
+  "actual_pumping_rate_is_separate": true,
+  "flow_queue_scenarios": 25,
+  "native_pH_scenarios": 101,
+  "sha256": "771c1ea462e6231e427bd365d4e82f5d6472915e34a6a16d01e194018a5a5e33",
+  "scope": "Isothermal liquid analytical components, embedded density correlation, empirical collection cuts, conditional ammonia addition, hydraulic screening; no VLE/enthalpy/retention prediction."
+}

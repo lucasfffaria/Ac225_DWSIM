@@ -1,0 +1,128 @@
+[
+  {
+    "from": "P-100 PRIMARY BOUNDARY",
+    "to": "PRIMARY-FRACTION",
+    "outlet": 0,
+    "inlet": 0
+  },
+  {
+    "from": "PRIMARY-FRACTION",
+    "to": "M-101 DILUTION",
+    "outlet": 0,
+    "inlet": 0
+  },
+  {
+    "from": "M-101 DILUTION",
+    "to": "DILUTED-FEED",
+    "outlet": 0,
+    "inlet": 0
+  },
+  {
+    "from": "DILUTED-FEED",
+    "to": "C-201 DGA2",
+    "outlet": 0,
+    "inlet": 0
+  },
+  {
+    "from": "C-201 DGA2",
+    "to": "DGA-CUT",
+    "outlet": 0,
+    "inlet": 0
+  },
+  {
+    "from": "DGA-CUT",
+    "to": "R-201 ACID ADJUSTMENT",
+    "outlet": 0,
+    "inlet": 0
+  },
+  {
+    "from": "R-201 ACID ADJUSTMENT",
+    "to": "LN-FEED",
+    "outlet": 0,
+    "inlet": 0
+  },
+  {
+    "from": "LN-FEED",
+    "to": "C-202 LN",
+    "outlet": 0,
+    "inlet": 0
+  },
+  {
+    "from": "C-202 LN",
+    "to": "LN-CUT",
+    "outlet": 0,
+    "inlet": 0
+  },
+  {
+    "from": "LN-CUT",
+    "to": "T-301 PROTOCOL AND QUEUE",
+    "outlet": 0,
+    "inlet": 0
+  },
+  {
+    "from": "T-301 PROTOCOL AND QUEUE",
+    "to": "FINAL-PRODUCT",
+    "outlet": 0,
+    "inlet": 0
+  },
+  {
+    "from": "DI-WATER",
+    "to": "M-101 DILUTION",
+    "outlet": 0,
+    "inlet": 1
+  },
+  {
+    "from": "DGA-PRE",
+    "to": "C-201 DGA2",
+    "outlet": 0,
+    "inlet": 1
+  },
+  {
+    "from": "DGA-RINSE",
+    "to": "C-201 DGA2",
+    "outlet": 0,
+    "inlet": 2
+  },
+  {
+    "from": "DGA-ELUENT",
+    "to": "C-201 DGA2",
+    "outlet": 0,
+    "inlet": 4
+  },
+  {
+    "from": "NH3-ADDITION",
+    "to": "R-201 ACID ADJUSTMENT",
+    "outlet": 0,
+    "inlet": 1
+  },
+  {
+    "from": "LN-PRE",
+    "to": "C-202 LN",
+    "outlet": 0,
+    "inlet": 1
+  },
+  {
+    "from": "LN-RINSE",
+    "to": "C-202 LN",
+    "outlet": 0,
+    "inlet": 2
+  },
+  {
+    "from": "LN-ELUENT",
+    "to": "C-202 LN",
+    "outlet": 0,
+    "inlet": 4
+  },
+  {
+    "from": "C-201 DGA2",
+    "to": "DGA-WASTE",
+    "outlet": 1,
+    "inlet": 0
+  },
+  {
+    "from": "C-202 LN",
+    "to": "LN-WASTE",
+    "outlet": 1,
+    "inlet": 0
+  }
+]

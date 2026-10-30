@@ -1,0 +1,6 @@
+id,feed_kBq,product_kBq,reported_yield_pct,role,predicted_kBq,relative_residual_pct
+1-1b,5.8,2.7,46.7,excluded from common-recovery calibration; development run; reported yield averages 1-1b and 1-1c,3.7178,37.69629629629629
+1-2,94.0,53.2,56.6,external transfer check; earlier protocol-development run,60.254000000000005,13.259398496240605
+2-1,46.3,29.6,63.9,calibration,29.6783,0.26452702702702263
+2-2,224.9,144.6,64.3,calibration,144.1609,-0.30366528354079964
+2-3,164.4,102.9,62.6,held-out consistency check,105.38040000000001,2.4104956268221605

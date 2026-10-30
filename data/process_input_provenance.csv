@@ -1,0 +1,32 @@
+parameter,value,unit,provenance,evidence_status
+temperature,298.15,K,assumed isothermal state,scenario
+pressure,101325,Pa,assumed liquid-state reference,scenario
+batch_basis,3600,s,arbitrary accounting conversion; not pumping time,definition
+primary_fraction_volume,80,mL,Tan 2025 Sec 2.3 and 3.3,reported
+primary_HNO3,10,mol/L,Tan 2025 Sec 2.3,reported
+dilution_water,80,mL,"equal volume addition, Tan Sec 2.4",reported
+DGA2_bed,5,mL,Tan Sec 2.4,reported
+DGA2_diameter,11,mm,Tan Sec 2.4,reported
+LN_bed,2,mL,Tan Sec 2.4,reported
+LN_diameter,8,mm,Tan Sec 2.4,reported
+nominal_column_flow,3,mL/min,Tan Sec 2.5,reported
+flow_sweep,1.5;3;4.5;6;9,mL/min,unvalidated hydraulic/time cases; recovery held fixed,scenario
+primary_duration,5,h,Tan 2025 reported duration,reported
+purification_duration,4,h,Tan 2025 reported duration,reported
+nominal_primary_recovery,0.7,fraction,midpoint of reported 0.65--0.75 range,endpoint reconciliation
+DGA2_recovery,0.9531901324349873,fraction,factorization of downstream overall recovery,non-identifiable scenario
+LN_recovery,0.9531901324349873,fraction,factorization of downstream overall recovery,non-identifiable scenario
+DGA_cut_HCl,0.1,mol/L,not reported; chloride-only carryover assumption,scenario
+DGA_cut_HCl_sensitivity,.05;.1;.2;.5,mol/L,not reported,scenario
+ammonia_solution,1,mol/L,aqueous NH3 analytical concentration not reported,scenario
+final_free_acid_target,0.05,mol/L,Tan Sec 2.4 rough acidity adjustment; represented as HCl only,reported target / scenario species
+dilution_duration,10,min,not separately timed in source,scenario
+adjustment_duration,10,min,not separately timed in source,scenario
+protocol_allowance,135.83043281254407,min,remainder to reconcile four hours at nominal flow,endpoint reconciliation
+particle_size,100,micrometre,equivalent sphere; source range 50--150 micrometres,scenario within reported range
+voidage,0.4,fraction,no measured value available,scenario
+voidage_sensitivity,.35;.45,fraction,no measured values available,scenario
+pressure_screen,50,kPa,illustrative per-column criterion; no equipment rating,scenario
+extra_queue,0;6;12;24;48,h,additional fixed queue cases,scenario
+pH_anchors,1.5:.95;2.0:.98;2.5:.66,pH:recovery,Fitzsimmons 2019 Molecules 24 1921 Sec 2.7.2; 1 M citrate,reported; separate matrix
+pH_halfwidth,.0;.05;.10;.15;.20;.25,pH units,"bounded control errors, not measured uncertainty",scenario

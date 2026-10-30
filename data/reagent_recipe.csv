@@ -1,0 +1,13 @@
+stage,operation,solution,volume_mL,HNO3_M,HCl_M,source,status
+primary,DGA1 precondition,nitric acid,10,5,0,Tan 2025 section 2.3 PDF p2,reported 5 BV x 2 mL
+primary,AG50 rinse,nitric acid,50,0.05,0,Tan 2025 section 2.3 PDF p2,reported 5 BV x 10 mL
+primary,Ac Ra transfer,nitric acid,60,5,0,Tan 2025 section 2.3 PDF p2,reported 6 BV x 10 mL
+primary,DGA1 Ac elution,nitric acid,80,10,0,Tan 2025 section 2.3 PDF p2 and p6,reported 40 BV x 2 mL
+primary,DGA1 Ln strip,nitric acid,16,0.05,0,Tan 2025 section 2.3 PDF p2,reported 8 BV x 2 mL
+purification,DGA2 precondition,nitric acid,25,5,0,Tan 2025 section 2.4 PDF p3,reported 5 BV x 5 mL
+purification,DGA2 acid dilution,water,80,0,0,Tan 2025 section 2.4 PDF p3,equal volume water added to 80 mL primary Ac fraction
+purification,DGA2 rinse,hydrochloric acid,15,0,6,Tan 2025 section 2.4 PDF p3,reported 3 BV x 5 mL
+purification,DGA2 Ac collection,water,10,0,0,Tan 2025 section 2.4 PDF p3,reported collection of 2 BV with water
+purification,LN precondition,hydrochloric acid,10,0,0.05,Tan 2025 section 2.4 PDF p3,reported 5 BV x 2 mL
+purification,LN rinse,nitric acid,14,0.05,0,Tan 2025 section 2.4 PDF p3,reported 7 BV x 2 mL
+purification,LN product,nitric acid,10,0.7,0,Tan 2025 section 2.4 PDF p3,reported 5 BV x 2 mL

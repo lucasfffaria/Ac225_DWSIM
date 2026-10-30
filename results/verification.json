@@ -1,0 +1,10 @@
+{
+  "closed_vs_matrix_max_relative_error": 8.32751578812936e-13,
+  "closed_vs_ode_max_scaled_error": 3.8148244125269175e-07,
+  "atom_ledger_closure_max_relative_error": 1.1571622559388737e-15,
+  "matrix_semigroup_max_abs_error": 9.953843305154919e-15,
+  "eta_cancellation_max_abs_error": 7.105427357601002e-15,
+  "random_cases": 200,
+  "robust_corner_and_delay_min_purity": 0.99,
+  "robust_time_translation_invariance_verified": true
+}
